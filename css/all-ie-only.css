@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+.home #features .counter .counter_bg .count{letter-spacing:7.5px; }
+.btn_holder{width:80px; float:right; margin:10px 0 0 0;}
+.accordionButton {width: 540px; float: left; 	_float: none;  /* Float works in all browsers but IE6 */ cursor: pointer;   padding:8px 10px; 
+background: #ffffff; /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlNWU1ZTUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  #ffffff 0%, #e5e5e5 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#e5e5e5)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #ffffff 0%,#e5e5e5 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #ffffff 0%,#e5e5e5 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #ffffff 0%,#e5e5e5 100%); /* IE10+ */
+background: linear-gradient(top,  #ffffff 0%,#e5e5e5 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-8 */
+margin-bottom:2px;
+border:1px solid #e0e0e0;
+border-radius:4px;
+-webkit-border-radius:4px;
+-moz-border-radius:4px;
+
+
+}
+.accordionContent {width:  540px; 	float: left; _float: none; /* Float works in all browsers but IE6 */ background: #F8F8F8;	margin-bottom:3px; padding:3px 10px; margin-bottom:2px;
+border:1px solid #e0e0e0;
+border-radius:4px;
+-webkit-border-radius:4px;
+-moz-border-radius:4px; font:11px Tahoma, Arial, Verdana, sans-serif; line-height:18px; padding-top:10px; padding-bottom:20px; color:#606060;}
+.on {background:#40456b; color:#f1433f;}	
+.over {}
+
+.signup .right_counter{min-height:320px; border-radius:8px; width:340px; float:right; background:#40456b; padding:100px 0 0 40px;}
+.login_right_counter{ width:400px; float:right; 
+	-webkit-border-top-left-radius:300px;
+    -webkit-border-bottom-left-radius:300px;
+    -moz-border-radius-topleft:300px;
+    -moz-border-radius-bottomleft:300px;
+	-webkit-border-top-right-radius:8px;
+    -webkit-border-bottom-right-radius:8px;
+    -moz-border-radius-topright:8px;
+    -moz-border-radius-bottomright:8px;
+	
+	background: #40456b url(../images/login_graphic.png) no-repeat 90px 20px;
+	border-radius:8px;
+
+	min-height:280px;
+ }
+  .forgotpassword_right_counter{ width:400px; float:right; 
+	-webkit-border-top-left-radius:300px;
+    -webkit-border-bottom-left-radius:300px;
+    -moz-border-radius-topleft:300px;
+    -moz-border-radius-bottomleft:300px;
+	-webkit-border-top-right-radius:8px;
+    -webkit-border-bottom-right-radius:8px;
+    -moz-border-radius-topright:8px;
+    -moz-border-radius-bottomright:8px;
+	
+	background: #40456b url(../images/forgot_password_graphic.png) no-repeat 110px 20px;
+	
+
+	min-height:220px;
+ }
+ 

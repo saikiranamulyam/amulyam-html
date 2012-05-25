@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/******************************************************************************************************************
+GLOBALS
+******************************************************************************************************************/
+p {font-family: Tahoma, Arial, Verdana, sans-serif; color:#606060; ine-height:18px;  }
+.page_content p{ color:#606060; line-height:18px; margin:5px 0 10px 0; }
+p.helptext{font-family: Georgia, "Times New Roman", Times, serif; font-size:11px; font-style:italic; color:#8b8b8b; line-height:14px;}
+.notification .content p{line-height:14px; margin-top:5px;}
+/******************************************************************************************************************
+HEADINGS
+******************************************************************************************************************/
+h1{font-family: 'AccordAlternateBold'; font-size:30px;  line-height:30px;}
+h2{font-family: 'AccordAlternateBold'; font-size:24px;  line-height:30px;}
+h3{font-family: 'AccordAlternateBold'; font-size:18px; line-height:24px;}
+h4{font-family: 'AccordAlternateBold'; font-size:16px; line-height:20px;}
+h5{font-family: Arial,Tahoma,Verdana,Sans-serif; font-size:12px; font-weight:bold; line-height:20px; }
+h6{font-family: Arial,Tahoma,Verdana,Sans-serif; font-size:12px; line-height:18px;}
+
+.notification .content h3{font-family: 'AccordAlternateBold'; font-size:16px; line-height:14px;}
+
+
+.home header #liverecharge #liveprofiles .calltoaction h1{ font:bold 14px Arial, Helvetica, sans-serif; color:#FFF; text-transform:uppercase; text-align:center;}
+#liverecharge #liveprofiles .calltoaction h1{ font:bold 14px Arial, Helvetica, sans-serif; color:#40456b; text-transform:uppercase; text-align:center;}
+
+.btn_text{font-family: 'AccordAlternateBold'; font-size:16px; color:#fff; text-transform:uppercase;}
+.page_content h3{ line-height:36px;}
+
+/******************************************************************************************************************
+FONT EMBEDDING ( ACCORD ALTERNATE FAMILY )
+******************************************************************************************************************/
+
+@font-face {
+    font-family: 'AccordAlternateLight';
+    src: url('../fonts/accordaltlight-webfont.eot');
+    src: url('../fonts/accordaltlight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/accordaltlight-webfont.woff') format('woff'),
+         url('../fonts/accordaltlight-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'AccordAlternateMedium';
+    src: url('../fonts/accordaltmedium-webfont.eot');
+    src: url('../fonts/accordaltmedium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/accordaltmedium-webfont.woff') format('woff'),
+         url('../fonts/accordaltmedium-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'AccordAlternateBold';
+    src: url('../fonts/accordaltbold-webfont.eot');
+    src: url('../fonts/accordaltbold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/accordaltbold-webfont.woff') format('woff'),
+         url('../fonts/accordaltbold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+/******************************************************************************************************************
+FONT SPECIFICS
+******************************************************************************************************************/
+.caps{text-transform:uppercase;}
+.fcaps{text-transform:capitalize;}
+.white{color:#FFF;}
+.pink{ color:#f1433f;}
+.purple{color:#40456b;}
+.bold{font-weight:bold;}
+
+

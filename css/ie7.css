@@ -1,0 +1,325 @@
+@charset "utf-8";
+/* CSS Document */
+.home #features .counter .counter_bg .count{letter-spacing:7.5px; }
+.btn_holder{width:80px; float:right; margin:5px 0 0 0;}
+.accordionButton {width: 540px; float: left; 	_float: none;  /* Float works in all browsers but IE6 */ cursor: pointer;   padding:8px 10px; 
+background: #ffffff; /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlNWU1ZTUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  #ffffff 0%, #e5e5e5 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#e5e5e5)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #ffffff 0%,#e5e5e5 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #ffffff 0%,#e5e5e5 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #ffffff 0%,#e5e5e5 100%); /* IE10+ */
+background: linear-gradient(top,  #ffffff 0%,#e5e5e5 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-8 */
+margin-bottom:2px;
+border:1px solid #e0e0e0;
+border-radius:4px;
+-webkit-border-radius:4px;
+-moz-border-radius:4px;
+
+
+}
+.accordionContent {width:  540px; 	float: left; _float: none; /* Float works in all browsers but IE6 */ background: #F8F8F8;	margin-bottom:3px; padding:3px 10px; margin-bottom:2px;
+border:1px solid #e0e0e0;
+border-radius:4px;
+-webkit-border-radius:4px;
+-moz-border-radius:4px; font:11px Tahoma, Arial, Verdana, sans-serif; line-height:18px; padding-top:10px; padding-bottom:20px; color:#606060;}
+.on {background:#40456b; color:#f1433f;}	
+.over {}
+
+.signup .right_counter{min-height:320px; border-radius:8px; width:370px; float:right; background:#40456b; padding:100px 0 0 40px;}
+.login_right_counter{ width:400px; float:right; 
+	-webkit-border-top-left-radius:300px;
+    -webkit-border-bottom-left-radius:300px;
+    -moz-border-radius-topleft:300px;
+    -moz-border-radius-bottomleft:300px;
+	-webkit-border-top-right-radius:8px;
+    -webkit-border-bottom-right-radius:8px;
+    -moz-border-radius-topright:8px;
+    -moz-border-radius-bottomright:8px;
+	
+	background: #40456b url(../images/login_graphic.png) no-repeat 90px 20px;
+	
+border-radius:8px;
+	min-height:280px;
+ }
+ .forgotpassword_right_counter{ width:400px; float:right; 
+	-webkit-border-top-left-radius:300px;
+    -webkit-border-bottom-left-radius:300px;
+    -moz-border-radius-topleft:300px;
+    -moz-border-radius-bottomleft:300px;
+	-webkit-border-top-right-radius:8px;
+    -webkit-border-bottom-right-radius:8px;
+    -moz-border-radius-topright:8px;
+    -moz-border-radius-bottomright:8px;
+	
+	background: #40456b url(../images/forgot_password_graphic.png) no-repeat 110px 20px;
+	
+
+	min-height:220px;
+ }
+ 
+
+
+/******************************************************************************************************************
+LIVE RECHARGES ON HOMEPAGE
+******************************************************************************************************************/
+.home header #liverecharge{width:960px; height:104px;  clear:both; padding:25px 0 0 0; }
+.home header #liverecharge #leftcurve{background:url(../images/transbg_sprite.png) no-repeat; width:15px; height:104px; float:left;}
+.home header #liverecharge #liveprofiles{background-image:url(../images/sprite.png); background-position:bottom left;float:left; width:930px; height:104px; }
+.home header #liverecharge #rightcurve{background:url(../images/transbg_sprite.png) -15px 0px no-repeat; width:15px; height:104px; float:right; }
+
+.home header #liverecharge #liveprofiles .profile{ width:150px; float:left; border-right:1px dotted #35395b; margin:20px 5px;}
+.home header #liverecharge #liveprofiles .profile .profile_pic{width:51px; height:51px; float:left; border:3px solid #6a7098;}
+.home header #liverecharge #liveprofiles .profile .profile_data {width:85px; float:right;}
+.home header #liverecharge #liveprofiles .profile .profile_data .profile_name{width:80px; overflow:hidden; font-size:11px; font-weight:bold; color:#bac0f3; display:block; line-height:20px; height:20px;}
+.home header #liverecharge #liveprofiles .profile .profile_data .amount{width:80px; overflow:hidden;font-size:11px; font-weight:bold; color:#bac0f3; display:block; line-height:18px;}
+.home header #liverecharge #liveprofiles .profile .profile_data .time{width:80px; overflow:hidden; font-size:10px; font-weight:normal; color:#a1a9e1; display:block; line-height:16px;}
+.home header #liverecharge #liveprofiles .calltoaction{ width:110px; float:right; margin:20px 5px; text-align:center;}
+
+#slider{margin-top:50px;}
+
+
+/******************************************************************************************************************
+TOP TAB NAV
+******************************************************************************************************************/
+.sf-menu, .sf-menu * {
+	margin:			0;
+	padding:		0;
+	list-style:		none;
+	
+	
+}
+.sf-menu {
+	line-height:	1.0;
+}
+.sf-menu ul {
+	position:		absolute;
+	top:			-999em;
+	width:			100%; /* left offset of submenus need to match (see below) */
+}
+.sf-menu ul li {
+	width:			100%;
+}
+.sf-menu li:hover {
+	visibility:		inherit; /* fixes IE7 'sticky bug' */
+}
+.sf-menu li {
+	float:			left;
+	position:		relative;
+}
+.sf-menu a {
+	display:		block;
+	position:		relative;
+}
+.sf-menu li:hover ul,
+.sf-menu li.sfHover ul {
+	left:			0;
+	top:			2.5em; /* match top ul list item height */
+	z-index:		99;
+}
+ul.sf-menu li:hover li ul,
+ul.sf-menu li.sfHover li ul {
+	top:			-999em;
+}
+ul.sf-menu li li:hover ul,
+ul.sf-menu li li.sfHover ul {
+	left:			10em; /* match ul width */
+	top:			0;
+}
+ul.sf-menu li li:hover li ul,
+ul.sf-menu li li.sfHover li ul {
+	top:			-999em;
+}
+ul.sf-menu li li li:hover ul,
+ul.sf-menu li li li.sfHover ul {
+	left:			10em; /* match ul width */
+	top:			0;
+}
+
+/*** DEMO SKIN ***/
+.sf-menu {
+	float:			left;
+	margin-bottom:	1em;
+}
+.sf-menu a {
+
+	padding: 		.75em 1em;
+	text-decoration:none;
+}
+.sf-menu li ul li a {
+
+	padding:.6em 1.5em;
+	text-decoration:none;
+	background:#f7514d;
+	border-radius:45px;
+	margin-right:20px;
+	
+}
+.sf-menu li ul li a:hover {
+
+	padding:.6em 1.5em;
+	text-decoration:none;
+	background:#f7514d;
+	border-radius:45px;
+	margin-right:20px;
+	
+}
+.sf-menu li ul li a.active {
+
+	padding:.6em 1.5em;
+	text-decoration:none;
+	background:#b42c29;
+	border-radius:45px;
+	margin-right:20px;
+}
+.sf-menu li ul li a.active:hover {
+
+	padding:.6em 1.5em;
+	text-decoration:none;
+	background:#b42c29;
+	border-radius:45px;
+		margin-right:20px
+}
+.sf-menu a, .sf-menu a:visited  { /* visited pseudo selector so IE6 applies text colour*/
+	color:			#13a;
+}
+.sf-menu li {
+	/*background:		#BDD2FF;*/
+	background: url(../images/tabs_bg.png) no-repeat;
+	color:#fff;
+}
+.sf-menu li li {
+	/*background:		#AABDE6;*/
+	background:none;
+}
+.sf-menu li li li {
+	background:		#9AAEDB;
+}
+.sf-menu li:hover, .sf-menu li.sfHover,
+.sf-menu a:focus, .sf-menu a:hover, .sf-menu a:active {
+	background: url(../images/tabs_bg.png) 0px 34px no-repeat;
+	outline:		0;
+	color:#fff;
+}
+
+/*** arrows **/
+.sf-menu a.sf-with-ul {
+
+	min-width:		1px; /* trigger IE7 hasLayout so spans position accurately */
+}
+.sf-sub-indicator {
+	position:		absolute;
+	display:		block;
+	right:			.75em;
+	top:			1.05em; /* IE6 only */
+	width:			10px;
+	height:			10px;
+	text-indent: 	-999em;
+	overflow:		hidden;
+	background:		url('../images/arrows-ffffff.png') no-repeat -10px -100px; /* 8-bit indexed alpha png. IE6 gets solid image only */
+}
+a > .sf-sub-indicator {  /* give all except IE6 the correct values */
+	top:			.8em;
+	background-position: 0 -100px; /* use translucent arrow for modern browsers*/
+}
+/* apply hovers to modern browsers */
+a:focus > .sf-sub-indicator,
+a:hover > .sf-sub-indicator,
+a:active > .sf-sub-indicator,
+li:hover > a > .sf-sub-indicator,
+li.sfHover > a > .sf-sub-indicator {
+	background-position: -10px -100px; /* arrow hovers for modern browsers*/
+}
+
+/* point right for anchors in subs */
+.sf-menu ul .sf-sub-indicator { background-position:  -10px 0; }
+.sf-menu ul a > .sf-sub-indicator { background-position:  0 0; }
+/* apply hovers to modern browsers */
+.sf-menu ul a:focus > .sf-sub-indicator,
+.sf-menu ul a:hover > .sf-sub-indicator,
+.sf-menu ul a:active > .sf-sub-indicator,
+.sf-menu ul li:hover > a > .sf-sub-indicator,
+.sf-menu ul li.sfHover > a > .sf-sub-indicator {
+	background-position: -10px 0; /* arrow hovers for modern browsers*/
+	
+}
+
+/*** shadows for all but IE6 ***/
+.sf-shadow ul {
+	background:	url('../images/shadow.png') no-repeat bottom right;
+	padding: 0 8px 9px 0;
+	-moz-border-radius-bottomleft: 17px;
+	-moz-border-radius-topright: 17px;
+	-webkit-border-top-right-radius: 17px;
+	-webkit-border-bottom-left-radius: 17px;
+}
+.sf-shadow ul.sf-shadow-off {
+	background: transparent;
+}
+
+/*** adding the class sf-navbar in addition to sf-menu creates an all-horizontal nav-bar menu ***/
+.sf-navbar {
+	
+	height:			2.5em;
+	padding-bottom:	2.5em;
+	position:		relative;
+}
+.sf-navbar li {	
+	position:static;
+	width:138px;
+	height:32px;
+	text-align:center;
+	margin:0 1px 0 0;
+
+}
+.sf-navbar a {
+	border-top:		none;
+}
+.sf-navbar li ul {
+	width:			60em; /*IE6 soils itself without this*/
+}
+.sf-navbar li li {
+	
+	position:		relative;
+}
+.sf-navbar li li ul {
+	width:			13em;
+}
+.sf-navbar li li li {
+	width:			100%;
+}
+.sf-navbar ul li {
+	width:			auto;
+	float:			left;
+
+
+}
+.sf-navbar a, .sf-navbar a:visited {
+	border:			none;
+	color:#fff;
+	
+}
+.sf-navbar li.current {
+	/*background:		#BDD2FF;*/
+}
+.sf-navbar li:hover,
+.sf-navbar li.sfHover,
+.sf-navbar li li.current,
+.sf-navbar a:focus, .sf-navbar a:hover, .sf-navbar a:active {
+	background: url(../images/tabs_bg.png) 0px -34px no-repeat;	
+	
+}
+.sf-navbar ul li:hover,
+.sf-navbar ul li.sfHover,
+ul.sf-navbar ul li:hover li,
+ul.sf-navbar ul li.sfHover li,
+.sf-navbar ul a:focus, .sf-navbar ul a:hover, .sf-navbar ul a:active {
+
+	background: none;
+	
+	
+}
+
