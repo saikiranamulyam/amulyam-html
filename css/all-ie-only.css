@@ -60,4 +60,7 @@ border-radius:4px;
 
 	min-height:220px;
  }
- 
+ .sf-navbar li ul {
+	width:			700px; /*IE6 soils itself without this*/
+	
+}

@@ -198,7 +198,7 @@ li.sfHover > a > .sf-sub-indicator {
 	border-top:		none;
 }
 .sf-navbar li ul {
-	width:			60em; /*IE6 soils itself without this*/
+	width:			700px; /*IE6 soils itself without this*/
 }
 .sf-navbar li li {
 	

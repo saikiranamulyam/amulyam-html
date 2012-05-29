@@ -470,7 +470,8 @@ TESTIMONIALS
 ******************************************************************************************************************/
 #testimonials_left{	width:280px;float:left;display:block;font-family:Georgia, "Times New Roman", Times, serif;font-style:italic;line-height:18px;	color:#535353;	font-size:12px;}
 #testimonials{background:#f1f4f5;margin:5px;}
-#testimonials blockquote{	font-family:Georgia, "Times New Roman", Times, serif;font-style:italic;color:#535353; padding:15px 20px 15px 30px; background:url(../images/testimonials_kot.png) no-repeat 10px 10px;}
+#testimonials blockquote{	font-family:Georgia, "Times New Roman", Times, serif;font-style:italic;color:#535353; padding:15px 20px 15px 35px; background:url(../images/testimonials_kot.png) no-repeat 10px 10px;line-height:18px;}
+#testimonials blockquote:first-letter{text-transform:uppercase;}
 #testimonials .tuser{background-color:#f1433f; font-family:Georgia, "Times New Roman", Times, serif; font-size:12px; text-align:right;	color:#FFF;	padding:5px 0px 10px 0px;}
 #testimonials .tuser img{float:right;	margin:5px;	border:solid 3px #ef7875; width:30px; height:30px;}
 #testimonials.frist{background:#40456b;	color:#FFF}
@@ -593,3 +594,16 @@ TRACE PINCODE N MOBILE NUMBER
 .search_panel .content{min-height:40px; float:left; width:450px; padding-top:7px; }
 .search_panel .content input{width:420px; padding:10px; margin-left:0px;}
 .search_panel .button{width:180px; float:left;}
+
+/******************************************************************************************************************
+LIVE RECHARGES PAGE
+******************************************************************************************************************/
+
+.live_recharge_details {width:97%; border-top:1px dotted #B5B5B5; display:block; float:left; margin:5px 10px 0px 0px; padding:10px;}
+.live_recharge_details .profile_pic{width:50px; height:50px; border:3px solid #dedede; float:left;}
+.live_recharge_details .profile_data{width:800px; overflow:hidden; float:right;}
+.live_recharge_details .user_name{ line-height:20px;  overflow:hidden;display:block; width:500px; float:left;}
+.live_recharge_details .mobile_data{line-height:16px;overflow:hidden; margin-top:5px; width:260px; float:right; display:block;}
+.live_recharge_details .mobile_data .operator_logo{width:50px; height:30px; float:left;}
+.live_recharge_details a{color:#4d4d4d;}
+.live_recharge_details a:hover{color:#f1433f;}
