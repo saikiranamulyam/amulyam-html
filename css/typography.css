@@ -5,10 +5,10 @@
 /******************************************************************************************************************
 GLOBALS
 ******************************************************************************************************************/
-p {font-family: Tahoma, Arial, Verdana, sans-serif; color:#606060; ine-height:18px;  }
-.page_content p{ color:#606060; line-height:18px; margin:5px 0 10px 0; }
+p {font-family: Arial, Tahoma, Verdana, sans-serif; font-size:12px; color:#606060; line-height:17px; margin:5px 0 20px 0; }
+.page_content p{ Arial, Tahoma, Verdana, sans-serif;  font-size:12px; color:#606060; line-height:18px; margin:5px 0 20px 0; }
 p.helptext{font-family: Georgia, "Times New Roman", Times, serif; font-size:11px; font-style:italic; color:#8b8b8b; line-height:14px;}
-.notification .content p{line-height:14px; margin-top:5px;}
+.notification .content p{font-family: Arial, Tahoma, Verdana, sans-serif; font-size:12px; line-height:14px; margin-top:5px;}
 /******************************************************************************************************************
 HEADINGS
 ******************************************************************************************************************/
@@ -18,7 +18,7 @@ h3{font-family: 'AccordAlternateBold'; font-size:18px; line-height:24px;}
 h4{font-family: 'AccordAlternateBold'; font-size:16px; line-height:20px;}
 h5{font-family: Arial,Tahoma,Verdana,Sans-serif; font-size:12px; font-weight:bold; line-height:20px; }
 h6{font-family: Arial,Tahoma,Verdana,Sans-serif; font-size:12px; line-height:18px;}
-
+h4.light{font-family: 'AccordAlternateLight'; font-size:12px; line-height:20px; font-weight:bold;}
 .notification .content h3{font-family: 'AccordAlternateBold'; font-size:16px; line-height:14px;}
 
 
