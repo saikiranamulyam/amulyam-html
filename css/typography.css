@@ -25,6 +25,9 @@ h4.light{font-family: 'AccordAlternateLight'; font-size:12px; line-height:20px; 
 .home header #liverecharge #liveprofiles .calltoaction h1{ font:bold 14px Arial, Helvetica, sans-serif; color:#FFF; text-transform:uppercase; text-align:center;}
 #liverecharge #liveprofiles .calltoaction h1{ font:bold 14px Arial, Helvetica, sans-serif; color:#40456b; text-transform:uppercase; text-align:center;}
 
+.home header #liverecharge #liveprofiles .calltoaction h1{ font:bold 14px Arial, Helvetica, sans-serif; color:#FFF; text-transform:uppercase; text-align:center;}
+#liverecharge_logout #liveprofiles .calltoaction h1{ font:bold 14px Arial, Helvetica, sans-serif; color:#40456b; text-transform:uppercase; text-align:center;}
+
 .btn_text{font-family: 'AccordAlternateBold'; font-size:16px; color:#fff; text-transform:uppercase;}
 .page_content h3{ line-height:36px;}
 
