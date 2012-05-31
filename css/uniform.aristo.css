@@ -515,3 +515,14 @@ display:block;
  		-moz-box-shadow: 0 0 5px rgba(0,0,0,.3);
 		-webkit-box-shadow: 0 0 5px rgba(0,0,0,.3);
 		box-shadow:  0 0 5px rgba(0,0,0,.3); }
+.textarea_big{width:670px;}
+.login input[type="text"],
+	   input[type="password"]{width:320px; padding:8px;}
+.mandatory{color:#F00;}
+
+.input_error {left: 0;padding: 0 9px 1px 15px;
+background: #E82222;color: white;
+font:11px Tahoma, Geneva, sans-serif;
+white-space: nowrap;min-width: 10px;z-index:999;background:url(../images/input_error_larr.png);height:25px;
+line-height:25px;margin-left:-15px;
+}

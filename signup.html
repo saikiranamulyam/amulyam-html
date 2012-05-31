@@ -134,10 +134,10 @@
                 <section class="left_form">
                   <h3 class="pink">Create a New Account</h3>
                   <fieldset class="tmar20">
-                    <table width="440" border="0" cellspacing="0" cellpadding="0">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0" >
                       <tr>
-                        <td width="160"><label for="mobile_number">Mobile Number : </label></td>
-                        <td width="220"><input type="text" name="mobile_number" id="mobile_number" /></td>
+                        <td ><label for="mobile_number">Mobile Number : <span class="mandatory">*</span></label></td>
+                        <td ><input type="text" name="mobile_number" id="mobile_number" /></td>
                         <td>&nbsp;</td>
                       </tr>
                       <tr>
@@ -153,27 +153,27 @@
                         <td>&nbsp;</td>
                       </tr>
                       <tr>
-                        <td><label for="username">Name : </label></td>
+                        <td><label for="username">Name : <span class="mandatory">*</span></label></td>
                         <td><input type="text" name="username" id="username" /></td>
                         <td>&nbsp;</td>
                       </tr>
                       <tr>
-                        <td><label for="email">Email : </label></td>
+                        <td><label for="email">Email : <span class="mandatory">*</span></label></td>
                         <td><input type="text" name="email" id="email" /></td>
                         <td>&nbsp;</td>
                       </tr>
                       <tr>
-                        <td><label for="password">Password : </label></td>
+                        <td><label for="password">Password : <span class="mandatory">*</span></label></td>
                         <td><input type="text" name="password" id="password" /></td>
                         <td>&nbsp;</td>
                       </tr>
                       <tr>
-                        <td><label for="dob">Date of Birth : </label></td>
+                        <td><label for="dob">Date of Birth : <span class="mandatory">*</span></label></td>
                         <td><input type="text" name="dob" id="dob" /></td>
                         <td>&nbsp;</td>
                       </tr>
                       <tr>
-                        <td><label for="city">City : </label></td>
+                        <td><label for="city">City : <span class="mandatory">*</span></label></td>
                         <td><select name="select" id="select">
                             <option value="-1">Select City</option>
                             <option value="141_11">Ahmedabad</option>
@@ -482,10 +482,10 @@
                             <option value="372_20">Yavatmal</option>
                             <option value="0_-1">Other City</option>
                           </select></td>
-                        <td>&nbsp;</td>
+                        <td><div class="input_error">Please select current city.</div></td>
                       </tr>
                       <tr>
-                        <td><label for="salary">Monthly Salary : </label></td>
+                        <td><label for="salary">Monthly Salary : <span class="mandatory">*</span></label></td>
                         <td><select name="select" id="select">
                             <option value="-1">Select Salary</option>
                             <option value="1">Less than Rs 6250</option>
@@ -500,7 +500,7 @@
                         <td>&nbsp;</td>
                       </tr>
                       <tr>
-                        <td><label for="occupation">Occupation : </label></td>
+                        <td><label for="occupation">Occupation : <span class="mandatory">*</span></label></td>
                         <td><select name="select" id="select">
                             <option value="-1">Select Occupation</option>
                             <option value="1">Artist</option>

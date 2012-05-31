@@ -45,6 +45,12 @@ table{border-width: 0 0 1px 1px; border-spacing: 0; border-collapse: collapse;}
 td{margin: 0; padding: 4px 4px; border-width: 1px 1px 0 0;vertical-align:middle; line-height:16px;}
 th{	height:20px; background:url(../images/th_bg.jpg) repeat-x; font:bold 11px Tahoma, Geneva, sans-serif;  color:#f1433f;line-height:14px;border-top:1px solid #F4F4F4;border-right:1px solid #F4F4F4; padding-top:10px;}
 
+table.noborder, td{border:none;}
+table.noborder{ border-spacing: 0; border-collapse: collapse; width:100%;}
+table.noborder td{margin: 0; padding: 4px 4px; border-width: none;vertical-align:middle; line-height:16px;}
+table.noborder th{	height:20px; background:url(../images/th_bg.jpg) repeat-x; font:bold 11px Tahoma, Geneva, sans-serif;  color:#f1433f;line-height:14px;border-top:1px solid #F4F4F4;border-right:1px solid #F4F4F4; padding-top:10px;}
+
+
 .notification{border-radius:8px; background:#f6f6f6; border:1px solid #ececec; padding:10px 10px 10px 10px;}
 .notification .icon{width:60px; min-height:40px; float:left; display:block;}
 .notification .content{min-height:40px; float:right; width:450px;}
@@ -506,8 +512,8 @@ TESTIMONIALS
 SIGNUP
 ******************************************************************************************************************/
 .signup{}
-.signup .left_form{ width:460px; float:left; }
-.signup .right_counter{ width:340px; float:right; background:#40456b;    
+.signup .left_form{ width:440px; float:left; }
+.signup .right_counter{ width:300px; float:right; background:#40456b;    
 	-webkit-border-top-left-radius:300px;
     -webkit-border-bottom-left-radius:300px;
     -moz-border-radius-topleft:300px;
@@ -550,7 +556,7 @@ min-height:320px; }
  }
  
 .signup .right_counter ul{ margin:5px 0 0 0;}
-.signup .right_counter ul li{ color:#fff; line-height:16px; margin-left:30px; list-style-type:circle;}
+.signup .right_counter ul li{ color:#fff; line-height:16px; margin-left:20px; list-style-type:circle;}
 .signup .right_counter .counterbg{width:280px; height:64px; background:url(../images/counter_bg.png) no-repeat; font:bold 24px Arial,Tahoma,Verdana, sans-serif; color:#fff; padding:30px 0 0 40px; letter-spacing:2px;}
 
 /******************************************************************************************************************
@@ -630,3 +636,47 @@ LIVE RECHARGES PAGE
 .live_recharge_details .mobile_data .operator_logo{width:50px; height:30px; float:left;}
 .live_recharge_details a{color:#4d4d4d;}
 .live_recharge_details a:hover{color:#f1433f;}
+
+/******************************************************************************************************************
+PLAY CONTESTS PAGE
+******************************************************************************************************************/
+ul.play_contests{margin:0px;}
+ul.play_contests li{width:80px; height:130px; overflow:hidden; background:#f1f1f1; display:block; margin:5px; color:#777777; border:5px solid #fff; transition: all .3s ease-in-out; -o-transition: all .3s ease-in-out; -moz-transition: all .3s ease-in-out; -webkit-transition: all .3s ease-in-out; padding:5px; text-align:center; float:left;}
+ul.play_contests li img{width:80px; height:80px; max-width:90px; max-height:90px;}
+ul.play_contests li:hover{ background:#f1433f;color:#fff; border:5px solid #f1433f;padding:5px; text-align:center; box-shadow: 2px 2px 2px #e2e2e2;  -moz-box-shadow: 2px 2px 2px #e2e2e2;   -webkit-box-shadow: 2px 2px 2px #e2e2e2;   -o-box-shadow: 2px 2px 2px #e2e2e2;  filter:progid:DXImageTransform.Microsoft.Shadow(color='#e2e2e2', Direction=120, Strength=2); }
+ul.play_contests li p{margin:0px; padding:0px; line-height:16px;}
+ul.play_contests li:hover p{color:#fff;}
+ul.play_contests li p.contest_name{width:80px; overflow:hidden; display:block; font-weight:bold; padding-top:3px;}
+ul.play_contests li p.creator_name{width:80px; overflow:hidden; display:block; font-size:11px; }
+
+.accordion_base{width:100%; margin:0px auto; clear:both; display:block;}
+
+/******************************************************************************************************************
+NOTIFICATIONS
+******************************************************************************************************************/
+.message{
+		background-size: 40px 40px;
+		background-image: linear-gradient(135deg, rgba(255, 255, 255, .05) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .05) 50%, rgba(255, 255, 255, .05) 75%, transparent 75%, transparent);
+        box-shadow: inset 0 -1px 0 rgba(255,255,255,.4);
+        width: 90%;
+        color: #fff;
+        padding: 5px 15px 5px 15px;
+        animation: animate-bg 5s linear infinite;
+		border-radius:4px;
+		margin:5px 0 5px 0;
+}
+
+.info{background-color: #4ea5cd; border-color: #3b8eb5;}
+.error{background-color: #de4343; border-color: #c43d3d;}
+.warning{background-color: #eaaf51; border-color: #d99a36;}
+.success{ background-color: #61b832; border-color: #55a12c;}
+.message h3{ margin: 0 0 0px 0; font:bold 13px Arial, Helvetica, sans-serif;}
+.message p{ margin: 0; color:#313131; padding:0px;}
+@keyframes animate-bg {
+    from {
+        background-position: 0 0;
+    }
+    to {
+       background-position: -80px 0;
+    }
+}

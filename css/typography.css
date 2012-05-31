@@ -86,7 +86,8 @@ FONT SPECIFICS
 .bold{font-weight:bold;}
 .black{color:#191d3b;}
 .grey{color:#4d4d4d;}
-
+.italic{font-style:italic;}
+p.georgia_by{font-family:Georgia, "Times New Roman", Times, serif;color:#535353; font-size:11px; font-style:italic;}
 
 
 
