@@ -68,4 +68,8 @@ border-radius:4px;
 /******************************************************************************************************************
 LIVE RECHARGES ON INNERPAGES WITHOUT LOGIN
 ******************************************************************************************************************/
-.inner  #liverecharge_logout{width:100%; height:84px;  clear:both; margin:160px 0 5px 0; box-shadow: 2px 2px 2px #e2e2e2;  -moz-box-shadow: 2px 2px 2px #e2e2e2;   -webkit-box-shadow: 2px 2px 2px #e2e2e2;   -o-box-shadow: 2px 2px 2px #e2e2e2;  filter:progid:DXImageTransform.Microsoft.Shadow(color='#e2e2e2', Direction=120, Strength=2); background:#fff; border-radius:8px; -moz-border-radius:8px; -o-border-radius:8px; -webkit-border-radius:8px; border:1px solid #e3e3e3; }
+.inner  #liverecharge_logout{width:100%; height:84px;  clear:both; margin:5px 0 5px 0; box-shadow: 2px 2px 2px #e2e2e2;  -moz-box-shadow: 2px 2px 2px #e2e2e2;   -webkit-box-shadow: 2px 2px 2px #e2e2e2;   -o-box-shadow: 2px 2px 2px #e2e2e2;  filter:progid:DXImageTransform.Microsoft.Shadow(color='#e2e2e2', Direction=120, Strength=2); background:#fff; border-radius:8px; -moz-border-radius:8px; -o-border-radius:8px; -webkit-border-radius:8px; border:1px solid #e3e3e3; }
+
+.clear{clear:both;height:0px;}
+
+

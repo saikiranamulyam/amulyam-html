@@ -116,6 +116,7 @@ JQUERY SLIDER ON HOMEPAGE
 /******************************************************************************************************************
 INNERPAGE HEADER
 ******************************************************************************************************************/
+.header{ height:150px;}
 .inner{ background:url(../images/pattern_bg.jpg);}
 a{font:11px Tahoma, Geneva, sans-serif; color:#f1433f; text-decoration:none;  transition: all .3s ease-in-out; -o-transition: all .3s ease-in-out; -moz-transition: all .3s ease-in-out; -webkit-transition: all .3s ease-in-out; outline:none;}
 a:hover{ color:#f0bb1a; }
@@ -149,7 +150,7 @@ LIVE RECHARGES ON INNERPAGES
 /******************************************************************************************************************
 LIVE RECHARGES ON INNERPAGES WITHOUT LOGIN
 ******************************************************************************************************************/
-.inner  #liverecharge_logout{width:100%; height:84px;  clear:both; margin:90px 0 0 0; box-shadow: 2px 2px 2px #e2e2e2;  -moz-box-shadow: 2px 2px 2px #e2e2e2;   -webkit-box-shadow: 2px 2px 2px #e2e2e2;   -o-box-shadow: 2px 2px 2px #e2e2e2;  filter:progid:DXImageTransform.Microsoft.Shadow(color='#e2e2e2', Direction=120, Strength=2); background:#fff; border-radius:8px; -moz-border-radius:8px; -o-border-radius:8px; -webkit-border-radius:8px; border:1px solid #e3e3e3; }
+.inner  #liverecharge_logout{width:100%; height:84px;  clear:both; margin:5px 0 5px 0; box-shadow: 2px 2px 2px #e2e2e2;  -moz-box-shadow: 2px 2px 2px #e2e2e2;   -webkit-box-shadow: 2px 2px 2px #e2e2e2;   -o-box-shadow: 2px 2px 2px #e2e2e2;  filter:progid:DXImageTransform.Microsoft.Shadow(color='#e2e2e2', Direction=120, Strength=2); background:#fff; border-radius:8px; -moz-border-radius:8px; -o-border-radius:8px; -webkit-border-radius:8px; border:1px solid #e3e3e3; }
 .inner  #liverecharge_logout #leftcurve{background:url(../images/transbg_sprite.png) no-repeat; width:15px; height:104px; float:left; display:none;}
 .inner  #liverecharge_logout #liveprofiles{height:84px;width:930px; margin:0px auto; float:left; margin:0 15px 0 15px; }
 .inner  #liverecharge_logout #rightcurve{background:url(../images/transbg_sprite.png) -15px 0px no-repeat; width:15px; height:104px; float:right; display:none; }
