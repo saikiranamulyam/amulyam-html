@@ -39,16 +39,36 @@
       <header >
         <div class="grid ">
 			<div class="header">
+				
 				  <div id="logo"> <a href="index.html"><img src="images/amulyam_logo.png" alt="Amulyam" title="Amulyam - Free Talktime"/></a> </div>
-				  <div id="topnav" > 
-					  <div class="link_holder">
-						  <a href="#dialog" name="modal" class="fcaps"><span class="white">How to get</span> free talk time?</a> 
-						  <a href="#" class="fcaps"><span class="white">New User?</span> SignUp Now!</a> 
-					  </div>
-					  <div class="btn_holder" >
-						<button class="login_but" id="login"></button>
-					  </div> 
-				  </div>
+					<div id="main_menu">
+						  <div id="topnav" > 
+							  <div class="link_holder">
+								  <a href="#dialog" name="modal" class="fcaps"><span class="white">How to get</span> free talk time?</a> 
+								  <a href="#" class="fcaps"><span class="white">New User?</span> SignUp Now!</a> 
+							  </div>
+							  <div class="btn_holder" >
+								<button class="signin login_but" id="login"></button>
+							  </div> 
+						  </div>
+						   <!-- MODAL LOGIN FORM STARTS HERE -->
+						  <fieldset id="signin_menu">
+							<form method="post" id="signin" action="#">
+							  <label for="username">Username :</label>
+							  <input type="text" name="username" id="username" class="textfield"/>
+							  <label for="password">Password :</label>
+							  <input type="password" name="username" id="password" class="textfield" />
+							  <hr/>
+							  <span class="fl_r">
+							  <input type="checkbox" />
+							  Keep me logged in</span>
+							  <hr/>
+							  <a href="#">Forgot Password?</a>
+							  <input type="submit" value=" " class="login_but_panel fl_r"/>
+							</form>
+						  </fieldset>
+						  <!-- MODAL LOGIN FORM ENDS HERE -->
+					</div>
 			</div>
         </div>
       </header>
@@ -225,21 +245,7 @@
       </div>
       <div id="mask"></div>
       <!-- MODAL POPUP WINDOW ENDS HERE --> 
-      <!-- MODAL LOGIN FORM STARTS HERE -->
-      <div id="login_panel">
-        <label for="username">Username :</label>
-        <input type="text" name="username" id="username" class="textfield"/>
-        <label for="password">Password :</label>
-        <input type="password" name="username" id="password" class="textfield" />
-        <hr/>
-        <span class="fl_r">
-        <input type="checkbox" />
-        Keep me logged in</span>
-        <hr/>
-        <a href="#">Forgot Password?</a>
-        <input type="submit" value=" " class="login_but_panel fl_r"/>
-      </div>
-      <!-- MODAL LOGIN FORM ENDS HERE --> 
+
       
     </div>
 </body>
@@ -248,6 +254,22 @@
         $("ul.sf-menu").superfish({ 
             pathClass:  'current' 
         }); 
+		$(".signin").click(function(e) {
+                e.preventDefault();
+                $("fieldset#signin_menu").toggle();
+                $(".signin").toggleClass("menu-open");
+            });
+
+            $("fieldset#signin_menu").mouseup(function() {
+                return false
+            });
+            $(document).mouseup(function(e) {
+                if($(e.target).parent("a.signin").length==0) {
+                    $(".signin").removeClass("menu-open");
+                    $("fieldset#signin_menu").hide();
+                }
+            });            
+
     }); 
 	</script>
 </html>
