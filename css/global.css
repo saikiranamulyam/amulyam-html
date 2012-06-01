@@ -36,7 +36,7 @@ GLOBALS
 .container a{font:11px Tahoma, Geneva, sans-serif; color:#f1433f; text-decoration:none;  transition: all .3s ease-in-out; -o-transition: all .3s ease-in-out; -moz-transition: all .3s ease-in-out; -webkit-transition: all .3s ease-in-out; outline:none;}
 .container a:hover{ color:#40456b; }
 .bold{font-weight:bold;}
-
+.inline{display:inline;}
 
 
 fieldset table, td{border-color: #F4F4F4;border-style: solid;}
@@ -169,7 +169,7 @@ LIVE RECHARGES ON INNERPAGES WITHOUT LOGIN
 .inner  #liverecharge_logout #liveprofiles{height:84px;width:930px; margin:0px auto; float:left; margin:0 15px 0 15px; }
 .inner  #liverecharge_logout #rightcurve{background:url(../images/transbg_sprite.png) -15px 0px no-repeat; width:15px; height:104px; float:right; display:none; }
 
-.inner  #liverecharge_logout #liveprofiles .profile{ width:150px; float:left; border-right:1px dotted #d3d3d3; margin:13px 5px;}
+.inner  #liverecharge_logout #liveprofiles .profile{ width:150px; float:left; border-right:1px dotted #d3d3d3; margin:13px 5px;position:relative;}
 .inner  #liverecharge_logout #liveprofiles .profile .profile_pic{width:51px; height:51px; float:left; border:3px solid #d9d9d9;}
 .inner  #liverecharge_logout #liveprofiles .profile .profile_data {width:85px; float:right; text-align:left;}
 .inner  #liverecharge_logout #liveprofiles .profile .profile_data .profile_name{width:80px; overflow:hidden; font-size:11px; font-weight:bold; color:#40456b; display:block; line-height:20px; height:20px;}
