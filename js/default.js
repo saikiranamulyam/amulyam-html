@@ -76,10 +76,7 @@ $(document).ready(function() {
 	 
 	});	
 	
-	//if login button is clicked
-	$("#login").click(function () {
-    $("#login_panel").slideToggle();
-    });
+
 	
 });
 

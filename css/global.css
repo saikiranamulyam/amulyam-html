@@ -35,6 +35,7 @@ GLOBALS
 .container a{font:11px Tahoma, Geneva, sans-serif; color:#f1433f; text-decoration:none;  transition: all .3s ease-in-out; -o-transition: all .3s ease-in-out; -moz-transition: all .3s ease-in-out; -webkit-transition: all .3s ease-in-out; outline:none;}
 .container a:hover{ color:#40456b; }
 .bold{font-weight:bold;}
+
 fieldset table, td{border-color: #F4F4F4;border-style: solid;}
 fieldset table{border-width: 0 0 1px 1px; border-spacing: 0; border-collapse: collapse;}
 fieldset td{margin: 0; padding: 2px 4px; border-width: 1px 1px 0 0;vertical-align:middle; line-height:24px;}
@@ -131,7 +132,7 @@ a{font:11px Tahoma, Geneva, sans-serif; color:#f1433f; text-decoration:none;  tr
 a:hover{ color:#f0bb1a; }
 header{width:100%; display:block; min-height:142px;background:url(../images/bg.jpg) repeat-x;}
 header #logo{ width:207px; height:45px; float:left; margin:20px 0 0 0; display:block;}
-header #topnav{ width:700px; height:45px; float:right; margin:20px 0 0 0; text-align:right; line-height:45px; display:block; overflow:hidden;}
+/*header #topnav{ width:700px; height:45px; float:right; margin:20px 0 0 0; text-align:right; line-height:45px; display:block; overflow:hidden; position:relative;}*/
 .inner header #topnav a{font-weight:bold; padding:0 7px 0 7px; color:#f1433f;}
 .inner header #topnav a:hover{font-weight:bold; padding:0 7px 0 7px; color:#f0bb1a;}
 .btn_holder{width:80px; float:right; margin:0 0 0 0;}
@@ -487,12 +488,51 @@ MODAL POPUP
 /******************************************************************************************************************
 MODAL LOGIN
 ******************************************************************************************************************/
-#login_panel{background:#f1433f;  border-radius:6px;  -webkit-border-radius:6px; -moz-border-radius:6px; position:absolute; top:55px; right:195px; padding:15px; font:11px Tahoma,Arial,sans-serif; color:#fff;line-height:18px; width:170px; display:none;}
+/*#login_panel{background:#f1433f;  border-radius:6px;  -webkit-border-radius:6px; -moz-border-radius:6px;  padding:15px; right:0px; font:11px Tahoma,Arial,sans-serif; color:#fff;line-height:18px; width:200px; display:none; text-align:left; float:right; z-index:99999; position:relative; right:0; }
 #login_panel label{ width:100%; }
 #login_panel .textfield{background:#fff; border:none; padding:5px; font:11px Tahoma,Arial, Sans-serif; color:#4e4e4e; width:95%;}
 #login_panel  hr{border:none; border-bottom:1px dotted #f5625e; clear:both;}
+
 #login_panel a{ color:#fff; text-decoration:none; line-height:30px; outline:none;}
 #login_panel a:hover{ color:#3c4163; text-decoration:underline; }
+*/
+.inner header #main_menu fieldset a{ color:#fff; text-decoration:none; line-height:30px; outline:none;}
+.inner header #main_menu fieldset a:hover{ color:#3c4163; text-decoration:underline; }
+.home header #main_menu fieldset a{ color:#fff; text-decoration:none; line-height:30px; outline:none;}
+.home header #main_menu fieldset a:hover{ color:#3c4163; text-decoration:underline; }
+
+#main_menu {	width: 700px; margin: 0 auto; position: relative; float:right;}
+a img {	border-width: 0;}
+#topnav {	line-height: 23px;	text-align: right;	width:700px; height:45px; float:right; margin:20px 0 0 0; text-align:right; line-height:45px; display:block; overflow:hidden; }
+#topnav a.signin {	background: #88bbd4; padding: 4px 6px 6px;	text-decoration: none;	font-weight: bold;	color: #fff; -webkit-border-radius: 4px;  -moz-border-radius: 4px;
+	border-radius: 4px; *background:transparent url("images/signin-nav-bg-ie.png") no-repeat 0 0; *padding:4px 12px 6px;}
+#topnav a.signin:hover {	background: #59B; *background:transparent url("images/signin-nav-bg-hover-ie.png") no-repeat 0 0; *padding:4px 12px 6px;}
+#topnav a.signin, #topnav a.signin:hover { *background-position:0 3px!important;}
+a.signin {	position: relative;	margin-left: 3px;}
+a.signin span {	background-image: url("images/toggle_down_light.png");	background-repeat: no-repeat;	background-position: 100% 50%;	padding: 4px 16px 6px 0;}
+#topnav a.menu-open {	background: #ddeef6!important;	color: #666!important;	outline: none;}
+#small_signup {	display: inline;	float: none;	line-height: 23px;	margin: 25px 0 0;	width: 170px;}
+a.signin.menu-open span {	background-image: url("images/toggle_up_dark.png");	color: #789;}
+#signin_menu {	background: #f1433f;border-radius: 6px;	-webkit-border-radius: 6px;	-moz-border-radius: 6px;padding: 15px;	font: 11px Tahoma, Arial, sans-serif;
+	color: #fff;line-height: 18px;		display: none;	text-align: left;	display: none;	position: absolute;	width: 180px;	z-index: 100;	border: 1px transparent;
+	text-align: left;	top: 24.5px;	right: 0px;	margin-top: 32px;	margin-right: 0px; *margin-right: -1px;	color: #FFF;	font-size: 11px;}
+#signin_menu label {	width: 100%;	display: block; line-height:18px; margin-top:8px;}
+#signin_menu .textfield {	background: #fff;	border: none;	padding: 5px;	font: 11px Tahoma, Arial, Sans-serif;	color: #4e4e4e;	width: 95%;}
+#signin_menu hr {	border: none;	border-bottom: 1px dotted #f5625e;	clear: both;}
+
+#signin_menu p {	margin: 0;}
+#signin_menu label {	font-weight: bold;}
+#signin_menu form{margin:0px; padding:0px;}
+
+.tipsy-inner {	padding: 10px 15px;	line-height: 1.5em;	font-weight: bold;}
+.tipsy {	opacity: .8;	filter: alpha(opacity=80);	background-repeat: no-repeat;	padding: 5px;}
+.tipsy-inner {	padding: 8px 8px;	max-width: 200px;	font: 11px 'Lucida Grande', sans-serif;	font-weight: bold;	-moz-border-radius: 4px;	-khtml-border-radius: 4px;
+	-webkit-border-radius: 4px;	border-radius: 4px;	background-color: #000;	color: white;	text-align: left;}
+.tipsy-north {	background-image: url(images/tipsy-north.gif);	background-position: top center;}
+.tipsy-south {	background-image: url(images/tipsy-south.gif);	background-position: bottom center;}
+.tipsy-east {	background-image: url(images/tipsy-east.gif);	background-position: right center;}
+.tipsy-west {	background-image: url(images/tipsy-west.gif);	background-position: left center;}
+
 
 /******************************************************************************************************************
 TESTIMONIALS
