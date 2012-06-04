@@ -691,6 +691,19 @@ ul.play_contests li p.contest_name{width:80px; overflow:hidden; display:block; f
 ul.play_contests li p.creator_name{width:80px; overflow:hidden; display:block; font-size:11px; }
 
 .accordion_base{width:100%; margin:0px auto; clear:both; display:block;}
+.contest_details{ font:11px Georgia, "Times New Roman", Times, serif; font-style:italic; padding-left:20px;}
+.leftcontest_panel{width:340px; float:left; display:block; margin:10px 0 0 0; min-height:350px;}
+.play_panel{width:340px; min-height:280px; background:#f1f1f1; text-align:center;}
+.play_panel img{max-width:340px; overflow:hidden;}	
+.leftcontest_panel .question{ background:#f1f1f1; margin-top:10px; line-height:18px; padding:10px 10px 10px 36px; line-height:18px; font-weight:bold; background:#f1f1f1 url(../images/question_mark.png) no-repeat 10px 10px;}
+ul.answers_list{margin:0px; padding:0px;}
+ul.answers_list li{margin-top:5px; display:block; background:#f1f1f1; border-radius:4px; padding:5px 10px; list-style-type:circle; font:bold 11px Arial, Helvetica, sans-serif; }
+.rightad_panel{width:340px; float:right;margin:10px 0 0 0;}
+.answers_panel{ width:300px; border:1px solid #CCC; padding:10px 17px; clear:both; display:block; margin-top:10px; float:right;}
+.page_content .answers_panel p{margin:5px 0px 5px 0px; padding:0px; font-weight:bold; line-height:16px; }
+.answers_panel ul{margin:0px; padding:0px;}
+.answers_panel ul li{line-height:18px;}
+
 
 /******************************************************************************************************************
 NOTIFICATIONS
