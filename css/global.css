@@ -38,10 +38,6 @@ GLOBALS
 .bold{font-weight:bold;}
 .inline{display:inline;}
 
-
-
-
-
 .notification{border-radius:8px; background:#f6f6f6; border:1px solid #ececec; padding:10px 10px 10px 10px;}
 .notification .icon{width:60px; min-height:40px; float:left; display:block;}
 .notification .content{min-height:40px; float:right; width:440px;}
@@ -51,10 +47,29 @@ GLOBALS
 .steps ul{ padding:5px;}
 .steps ul li.step_indicator{width:60px;  float:left; display:block; background:#40456b; border-radius:4px; padding:5px 10px 5px 10px;}
 .steps ul li.content{width:85%; float:right; margin:8px 0 0 10px; line-height:16px; text-align:left;}
+
+
+
+/******************************************************************************************************************
+CLEARFIX
+******************************************************************************************************************/
+.group:before,
+.group:after {
+    content:"";
+    display:table;
+}
+.group:after {
+    clear:both;
+}
+.group {
+    zoom:1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+
+
 /******************************************************************************************************************
 HOMEPAGE HEADER
 ******************************************************************************************************************/
-
 .home a{font:11px Tahoma, Geneva, sans-serif; color:#f1433f; text-decoration:none;  transition: all .3s ease-in-out; -o-transition: all .3s ease-in-out; -moz-transition: all .3s ease-in-out; -webkit-transition: all .3s ease-in-out; outline:none;}
 .home a:hover{ color:#f0bb1a; }
 .home header{width:100%; height:94px; display:block; background:none;}
@@ -68,7 +83,6 @@ HOMEPAGE HEADER
 /******************************************************************************************************************
 LIVE RECHARGES ON HOMEPAGE
 ******************************************************************************************************************/
-
 .home header #liverecharge{width:960px; height:104px;  clear:both; padding:25px 0 0 0; }
 .home header #liverecharge a{color:#a1a9e1;}
 .home header #liverecharge a:hover{color:#fff;}
@@ -105,6 +119,7 @@ FEATURES ON HOMEPAGE AND RELATIVE ICONS
 .home #features .counter{  width:300px; margin:0 0 0 30px; float:left;}
 .home #features .counter .counter_bg{ width:300px; height:88px; background:url(../images/sprite.png) 0px -189px; margin:5px 0 0 0;}
 .home #features .counter .counter_bg .count{width:200px; height:50px; padding:24px 0 0 0; display:block; text-align:left; float:right; font:bold 28px Arial, Helvetica, sans-serif; color:#FFF; letter-spacing:7px; margin-right:30px; }
+
 
 /******************************************************************************************************************
 JQUERY SLIDER ON HOMEPAGE
@@ -204,7 +219,7 @@ footer #copyright{ background:url(../images/footer_border.gif) repeat-x; margin:
 
 
 /******************************************************************************************************************
-CONTAINERS
+BREADCRUMB
 ******************************************************************************************************************/
 .container{
 box-shadow: 2px 2px 2px #e2e2e2;  
@@ -349,36 +364,13 @@ button.GlobalButton:active{margin-top:1px; width:194px; height:50px;  background
 .GlobalButton:hover{width:194px; height:50px;  background:url(../images/input_button_sprite.png) 0 -50px;}
 .GlobalButton:active{margin-top:1px; width:194px; height:50px;  background:url(../images/input_button_sprite.png); outline:none;}
 
+a.GlobalButton span {background:url(../images/button_sprite.png) no-repeat 0 0;display: block;line-height: 36px;padding: 7px 0 7px 18px;color: #fff;}
+a.GlobalButton {background:url(../images/button_span_sprite.png) no-repeat 0 0;display: block;float: left;height: 50px;margin-right: 20px;padding-right: 20px;text-decoration: none;font-family: Arial, Helvetica, sans-serif;font-size:12px;font-weight:bold;}
+a.GlobalButton:hover span {background-position: 0 -34px; color: #fff;}
+a.GlobalButton:hover {background-position: right -34px;}
 
-a.GlobalButton span {
-background:url(../images/button_sprite.png) no-repeat 0 0;
-display: block;
-line-height: 36px;
-padding: 7px 0 7px 18px;
-color: #fff;
 
-}
 
-a.GlobalButton {
-background:url(../images/button_span_sprite.png) no-repeat 0 0;
-display: block;
-float: left;
-height: 50px;
-margin-right: 20px;
-padding-right: 20px;
-text-decoration: none;
-font-family: Arial, Helvetica, sans-serif;
-font-size:12px;
-font-weight:bold;
-}
-
-a.GlobalButton:hover span {
-background-position: 0 -34px; color: #fff;
-}
-
-a.GlobalButton:hover {
-background-position: right -34px;
-}
 /***********************************************************************************************************************
  ACCORDIAN STYLES
 ************************************************************************************************************************/
@@ -453,20 +445,7 @@ AD PACKS
 .adpack_728_90{width:728px; height:90px; display:block; margin:0px auto; background:#f8f8f8; margin:0px auto; margin-top:10px;}
 .adpack_336_280{width:336px; height:280px; display:block; margin:0px auto; background:#f8f8f8; margin:0px auto;}
 
-/******************************************************************************************************************
-CLEARFIX
-******************************************************************************************************************/
-.group:before,
-.group:after {
-    content:"";
-    display:table;
-}
-.group:after {
-    clear:both;
-}
-.group {
-    zoom:1; /* For IE 6/7 (trigger hasLayout) */
-}
+
 
 /******************************************************************************************************************
 MODAL POPUP
@@ -541,12 +520,14 @@ TESTIMONIALS
 #testimonials.frist .tuser span{color:#f1433f;}
 #testimonials.frist blockquote{	padding:15px 20px 15px 20px; font-family:Georgia, "Times New Roman", Times, serif; font-style:italic; color:#FFF;padding:15px 20px 15px 30px; background:url(../images/testimonials_kot.png) no-repeat 10px 10px;}
 
+
+ 
 /******************************************************************************************************************
 SIGNUP
 ******************************************************************************************************************/
 .signup{}
 .signup .left_form{ width:440px; float:left; }
-.signup .right_counter{ width:300px; float:right; background:#40456b;    
+.signup .right_counter{ width:300px; float:right; background:#40456b;  
 	-webkit-border-top-left-radius:300px;
     -webkit-border-bottom-left-radius:300px;
     -moz-border-radius-topleft:300px;
@@ -565,11 +546,8 @@ min-height:320px; }
 	-webkit-border-top-right-radius:8px;
     -webkit-border-bottom-right-radius:8px;
     -moz-border-radius-topright:8px;
-    -moz-border-radius-bottomright:8px;
-	
+    -moz-border-radius-bottomright:8px;	
 	background: #40456b url(../images/login_graphic.png) no-repeat 130px 20px;
-	
-
 	min-height:280px;
  }
  .forgotpassword_right_counter{ width:400px; float:right; 
@@ -580,17 +558,15 @@ min-height:320px; }
 	-webkit-border-top-right-radius:8px;
     -webkit-border-bottom-right-radius:8px;
     -moz-border-radius-topright:8px;
-    -moz-border-radius-bottomright:8px;
-	
+    -moz-border-radius-bottomright:8px;	
 	background: #40456b url(../images/forgot_password_graphic.png) no-repeat 130px 20px;
-	
-
 	min-height:220px;
- }
- 
+ } 
 .signup .right_counter ul{ margin:5px 0 0 0;}
 .signup .right_counter ul li{ color:#fff; line-height:16px; margin-left:20px; list-style-type:circle;}
 .signup .right_counter .counterbg{width:280px; height:64px; background:url(../images/counter_bg.png) no-repeat; font:bold 24px Arial,Tahoma,Verdana, sans-serif; color:#fff; padding:30px 0 0 40px; letter-spacing:2px;}
+
+
 
 /******************************************************************************************************************
 VERTICAL TABS
@@ -606,8 +582,6 @@ VERTICAL TABS
 .section_right_inner_content .right_adblock{ width:340px; float:right;}
 .section_right_inner_content .subsec_left { float:left; width:435px; }
 .section_right_inner_content .subsec_left_01 { float:left; width:715px; position:relative; margin-right:-55px; }
-
-
 
 .section_right_inner_content .subsec_right { float:left; width:228px; background:#faf9f5; }
 .section_right_inner_content .subsec_right .bdraligner { border:2px solid #eeead9; padding:10px 15px 15px 15px; }
@@ -648,6 +622,8 @@ ul.contest_buttons li{display:inline;}
 .create_rateit:hover{width:175px; height:187px;  background:url(../images/create_contest_sprite.jpg) 175px 187px;}
 .create_rateit:active{width:175px; height:187px;  background:url(../images/create_contest_sprite.jpg) 175px 187px; outline:none; margin-top:2px;}
 
+
+
 /******************************************************************************************************************
 TRACE PINCODE N MOBILE NUMBER
 ******************************************************************************************************************/
@@ -657,10 +633,11 @@ TRACE PINCODE N MOBILE NUMBER
 .search_panel .content input{width:420px; padding:10px; margin-left:0px;}
 .search_panel .button{width:180px; float:left;}
 
+
+
 /******************************************************************************************************************
 LIVE RECHARGES PAGE
 ******************************************************************************************************************/
-
 .live_recharge_details {width:97%; border-top:1px dotted #B5B5B5; display:block; float:left; margin:5px 10px 0px 0px; padding:10px;}
 .live_recharge_details .profile_pic{width:50px; height:50px; border:3px solid #dedede; float:left;}
 .live_recharge_details .profile_data{width:800px; overflow:hidden; float:right;}
@@ -669,6 +646,8 @@ LIVE RECHARGES PAGE
 .live_recharge_details .mobile_data .operator_logo{width:50px; height:30px; float:left;}
 .live_recharge_details a{color:#4d4d4d;}
 .live_recharge_details a:hover{color:#f1433f;}
+
+
 
 /******************************************************************************************************************
 PLAY CONTESTS PAGE
@@ -728,58 +707,16 @@ NOTIFICATIONS
 }
 
 
+
 /******************************************************************************************************************
 PAGINATION
 ******************************************************************************************************************/
 ul{border:0; margin:0; padding:0;}
 ul#pagination{clear:both; margin:0px auto; display:block; width:350px; padding-top:20px; margin-bottom:10px;}
-
-#pagination li{
-border:0; margin:0; padding:0;
-font-size:11px;
-list-style:none;
-margin-right:2px;
-
-}
-#pagination a{
-
-margin-right:2px;
-font-weight:bold;
-border-radius:4px;
-background:#f1433f;
-color:#FFF;
-
-}
-#pagination .previous-off,
-#pagination .next-off {
-
-color:#888888;
-display:block;
-float:left;
-font-weight:normal;
-margin-right:2px;
-padding:3px 14px;
-}
-#pagination .next a,
-#pagination .previous a {
-font-weight:normal;
-} 
-#pagination .active{
-background:#2e6ab1;
-color:#FFFFFF;
-font-weight:bold;
-display:block;
-float:left;
-padding:3px 14px;
-}
-#pagination a:link,
-#pagination a:visited {
-color:#0e509e
-display:block;
-float:left;
-padding:3px 14px;
-text-decoration:none;
-}
-#pagination a:hover{
-background:#40456b;
-}
+#pagination li{border:0; margin:0; padding:0;font-size:11px;list-style:none;margin-right:2px;}
+#pagination a{margin-right:2px;font-weight:bold;border-radius:4px;background:#f1433f;color:#FFF;}
+#pagination .previous-off,#pagination .next-off {color:#888888;display:block;float:left;font-weight:normal;margin-right:2px;padding:3px 14px;}
+#pagination .next a,#pagination .previous a {font-weight:normal;} 
+#pagination .active{background:#2e6ab1;color:#FFFFFF;font-weight:bold;display:block;float:left;padding:3px 14px;}
+#pagination a:link,#pagination a:visited {color:#0e509e;display:block;float:left;padding:3px 14px;text-decoration:none;}
+#pagination a:hover{background:#40456b;}
