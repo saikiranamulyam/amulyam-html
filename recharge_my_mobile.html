@@ -61,12 +61,12 @@
 							</ul>
 						</li>
 
-						<li class="current">
+						<li >
 							<a class="sf-with-ul bold" href="#">My Wallet</a>
-							<ul >
-								<li><a href="#" class="active">Wallet</a></li>
-								<li><a href="#">Credit History</a></li>
-								<li><a href="#">Debit History</a></li>
+							<ul style="display: none; visibility: hidden;">
+								<li><a href="#" >Wallet</a></li>
+								<li><a href="#" >Credit History</a></li>
+								<li><a href="#" >Debit History</a></li>
 							</ul>
 						</li>
 						<li class="">
@@ -84,10 +84,10 @@
 								<li><a href="#">Sent SMS</a></li>
 							</ul>
 						</li>
-						<li class="">
+						<li class="current">
 							<a class="sf-with-ul bold" href="#" >Trace or Find</a>
 							<ul >
-								<li><a href="#">Trace Mobile Number</a></li>
+								<li><a href="#" class="active">Trace Mobile Number</a></li>
 								<li><a href="#">Trace Pincode</a></li>
 							</ul>
 						</li>
@@ -155,7 +155,7 @@
 									  <a href="http://www.google.com"> <button class="liverecharges_but"></button> </a> 
 									</div>
 								
-								  <!-- LIVE RECHARGES CALL TO ACTION ENDS-->       
+								  <!-- LIVE RECHARGES CALL TO ACTION ENDS-->  
 					</div>
 				<div id="rightcurve"></div>
 			</section>
@@ -166,9 +166,9 @@
 				<div class="breadcrumb">
 					<ul>
 						<li>You are here</li> :
-						<li><a href="index.html">Home </a></li>
-						<li><a href="my_wallet.html">My Wallet</a></li>
-						<li>Wallet</li>
+						<li><a href="trace_mobile_number.html">Home </a></li>
+						<li><a href="trace_mobile_number.html">Trace or Find</a></li>
+						<li>Trace Mobile Number</li>
 					</ul>
 				</div>
 		  
@@ -178,64 +178,66 @@
 		  
 		  <!-- PAGE CONTENT STARTS -->
 			<div class="page_content group">
-			  <h3 class="pink">My Wallet</h3>
-				
-				
-				<div class="left">
-					
-						<!-- NOTIFICATION STARTS -->
+            
+            			      <!-- ads panel starts here -->
+                              <div class="rightad_panel">
+                                <div class="adpack_336_280"></div>
+                              </div>
+                              <!-- ads panel ends here -->
+							
+			  <h3>Instant Free Mobile Recharge</h3>
+              <p>Credited money in wallet can be used to get free mobile recharge and free movie tickets. Try instant credits to fill your wallet with money immediately after completing the offer.</p>
+                              
+                    <table width="480" border="0" cellspacing="0" cellpadding="0" class="recharge_mobile">
+                      <tr>
+                        <td width="190"><label for="mobile_number">Mobile Number :</label></td>
+                        <td><input type="text" name="mobile_number" id="mobile_number" /></td>
+                      </tr>
+                      <tr>
+                        <td><label for="re_mobile_number">Re-type Mobile Number:</label></td>
+                        <td><input type="text" name="re_mobile_number" id="re_mobile_number" /></td>
+                      </tr>
+                      <tr>
+                        <td><label for="mobile_operator">Mobile Operator :</label></td>
+                        <td><select name="mobile_operator" id="select">
+                            			<option value="0">Select Mobile Operator</option>
+                                        <option value="1_Airtel">Airtel</option>
+                                        <option value="2_Vodafone">Vodafone</option>
+                                        <option value="3_BSNL">BSNL</option>
+                                        <option value="4_Reliance(CDMA)">Reliance(CDMA)</option>
+                                        <option value="5_Reliance(GSM)">Reliance(GSM)</option>
+                                        <option value="6_AirCel">AirCel</option>
+                                        <option value="8_Idea">Idea</option>
+                                        <option value="9_Tata Indicom">Tata Indicom</option>
+                                        <option value="13_Tata Docomo">Tata Docomo</option>
+                                        <option value="10_LOOP(BPL)Mumbai">LOOP(BPL)Mumbai</option>
+                                        <option value="16_MTS">MTS</option>
+                                        <option value="15_Uninor">Uninor</option>
+                                        <option value="18_Videocon">Videocon</option>
+                                        <option value="12_Virgin">Virgin CDMA</option>
+                          </select></td>
+                      </tr>
+                      <tr>
+                        <td><label for="circle">Choose Circle :</label></td>
+                        <td><select name="circle" id="select">
+                            <option value="1">Select Circle</option>
+	                        </select></td>
+                      </tr>
+                      <tr>
+                        <td><label for="amount">Amount :</label></td>
+                        <td><select name="amount" id="select">
+                            <option value="1">Select Amount</option>
 
-                        <div class="notification success message group">
-                        				<div class="icon"><img src="images/email_icon.png"  alt="Email" ></div>
-                                         <div class="content"><h3 class="white">0 Unread Bonus Mails</h3>
-                                        <p>Bonus Mail are advertisement emails you receive according to your profile. <br/>Read more bonus mails regularly to earn more free talk time.</p></div>
-                        </div>
-						<!-- NOTIFICATION ENDS -->
-						
-							<table width="540" border="0" cellspacing="0" cellpadding="0" class="tmar20 data">
-
-							  <tr>
-							    <th>Current Wallet Summary </th>
-							    <th align="center">Amount</th>
-						      </tr>
-							  <tr>
-								<td width="200">Total Credited Amount in Wallet : <br/><a href="credit_history.html">(see credit history)</a></td>
-								<td align="center" class="bold">Rs.2.75</td>
-							  </tr>
-							  <tr>
-								<td>Total Debited Amount in Wallet : <br/><a href="debit_history.html">(see debit history)</a></td>
-								<td align="center" class="bold">Rs.0</td>
-							  </tr>
-							  <tr>
-								<td>Current Balance :</td>
-                                <td align="center" class="bold">Rs.2.75</td>								
-							  </tr>
-							  <tr>
-								<td>&nbsp;</td>
-                                <td align="center" class="tpad10"><input type="submit" class="GlobalButton" value="RECHARGE MY MOBILE" /></td>								
-							  </tr>                              
-							</table>
-						
-						<!-- NOTIFICATION STARTS -->
-                        <div class="notification warning message group rmar20 tmar20">
-                        				<div class="icon"><img src="images/alert_icon.png"  alt="Alert" ></div>
-                                         <div class="content">
-                                        <p>
-									<span class="pink">*Credit</span>--Money deposited in your wallet by amulyam for completing the offers <br/>
-									<span class="pink">*Debit</span>--Money deducted from your wallet for using mobile recharge or buying movie tickets
-								</p></div>
-                        </div>
-                        
-						
-						<!-- NOTIFICATION ENDS -->
+                          </select></td>
+                      </tr>
+                      <tr>
+                        <td>&nbsp;</td>
+                        <td class="tpad10"><input type="submit" class="GlobalButton" value="RECHARGE" /></td>
+                      </tr>
+                    </table>
+                              
 					
-				</div>
-				<div class="right">
-					<!-- AD BLOCK STARTS -->
-					<div class="adpack_336_280"></div>
-					<!-- AD BLOCK ENDS --> 
-				</div>
-                <div class="clear"></div>
+
 			</div>
 		<!-- PAGE CONTENT ENDS --> 
 		<br/>

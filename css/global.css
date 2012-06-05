@@ -39,21 +39,13 @@ GLOBALS
 .inline{display:inline;}
 
 
-fieldset table, td{border-color: #F4F4F4;border-style: solid;}
-fieldset table{border-width: 0 0 1px 1px; border-spacing: 0; border-collapse: collapse;}
-fieldset td{margin: 0; padding: 2px 4px; border-width: 1px 1px 0 0;vertical-align:middle; line-height:24px;}
-fieldset th{	height:30px; background:url(../images/th_bg.jpg) repeat-x; font:bold 11px Tahoma, Geneva, sans-serif;  color:#f1433f;line-height:30px; padding:5px; border-top:1px solid #F4F4F4;border-right:1px solid #F4F4F4;}
-
-table, td{border-color: #F4F4F4;border-style: solid;}
-table{border-width: 0 0 1px 1px; border-spacing: 0; border-collapse: collapse;}
-td{margin: 0; padding: 4px 4px; border-width: 1px 1px 0 0; vertical-align:middle; line-height:16px;}
-th{	height:20px; background:url(../images/th_bg.jpg) repeat-x; font:bold 11px Tahoma, Geneva, sans-serif;  color:#f1433f;line-height:14px;border-top:1px solid #F4F4F4;border-right:1px solid #F4F4F4; padding-top:10px;}
 
 
 
 .notification{border-radius:8px; background:#f6f6f6; border:1px solid #ececec; padding:10px 10px 10px 10px;}
 .notification .icon{width:60px; min-height:40px; float:left; display:block;}
-.notification .content{min-height:40px; float:right; width:450px;}
+.notification .content{min-height:40px; float:right; width:440px;}
+.page_content .notification p{margin:0px; color:#000;}
 
 .steps{border-radius:4px; background:#f1433f; font:11px Tahoma,Arial,Verdana, Sans-serif; color:#fff; margin-top:5px;}
 .steps ul{ padding:5px;}
@@ -125,7 +117,7 @@ JQUERY SLIDER ON HOMEPAGE
 /******************************************************************************************************************
 INNERPAGE HEADER
 ******************************************************************************************************************/
-.header{ height:150px;}
+.header{ height:154px;}
 .inner{ background:url(../images/pattern_bg.jpg);}
 a{font:11px Tahoma, Geneva, sans-serif; color:#f1433f; text-decoration:none;  transition: all .3s ease-in-out; -o-transition: all .3s ease-in-out; -moz-transition: all .3s ease-in-out; -webkit-transition: all .3s ease-in-out; outline:none;}
 a:hover{ color:#f0bb1a; }
@@ -135,7 +127,7 @@ header #logo{ width:207px; height:45px; float:left; margin:20px 0 0 0; display:b
 .inner header #topnav a{font-weight:bold; padding:0 7px 0 7px; color:#f1433f;}
 .inner header #topnav a:hover{font-weight:bold; padding:0 7px 0 7px; color:#f0bb1a;}
 .btn_holder{width:80px; float:right; margin:0 0 0 0;}
-#top_tabnav{min-height:70px;  display:block; clear:both; float:right; margin:10px 0 0 0; width:100%;}
+#top_tabnav{min-height:70px;  display:block; clear:both; float:right; margin:18px 0 0 0; width:100%;}
 
 
 /******************************************************************************************************************
@@ -725,7 +717,7 @@ NOTIFICATIONS
 .warning{background-color: #eaaf51; border-color: #d99a36;}
 .success{ background-color: #61b832; border-color: #55a12c;}
 .message h3{ margin: 0 0 0px 0; font:bold 13px Arial, Helvetica, sans-serif;}
-.message p{ margin: 0; color:#313131; padding:0px;}
+.message p{ margin: 0; color:#000000; padding:0px;}
 @keyframes animate-bg {
     from {
         background-position: 0 0;
