@@ -734,3 +734,60 @@ NOTIFICATIONS
        background-position: -80px 0;
     }
 }
+
+
+/******************************************************************************************************************
+PAGINATION
+******************************************************************************************************************/
+ul{border:0; margin:0; padding:0;}
+ul#pagination{clear:both; margin:0px auto; display:block; width:350px; padding-top:20px; margin-bottom:10px;}
+
+#pagination li{
+border:0; margin:0; padding:0;
+font-size:11px;
+list-style:none;
+margin-right:2px;
+
+}
+#pagination a{
+
+margin-right:2px;
+font-weight:bold;
+border-radius:4px;
+background:#f1433f;
+color:#FFF;
+
+}
+#pagination .previous-off,
+#pagination .next-off {
+
+color:#888888;
+display:block;
+float:left;
+font-weight:normal;
+margin-right:2px;
+padding:3px 14px;
+}
+#pagination .next a,
+#pagination .previous a {
+font-weight:normal;
+} 
+#pagination .active{
+background:#2e6ab1;
+color:#FFFFFF;
+font-weight:bold;
+display:block;
+float:left;
+padding:3px 14px;
+}
+#pagination a:link,
+#pagination a:visited {
+color:#0e509e
+display:block;
+float:left;
+padding:3px 14px;
+text-decoration:none;
+}
+#pagination a:hover{
+background:#40456b;
+}
