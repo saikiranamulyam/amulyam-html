@@ -14,7 +14,7 @@ GLOBALS
 .fl_r{float:right;}
 .fl_l{float:left;}
 ::selection{color:#fff; background:#f1433f;}
-
+.lh20{line-height:20px;}
 .al_center{text-align:center;}
 .page_content {width:920px; margin:0px auto; margin-top:10px; padding-bottom:20px;  border-top:1px dotted #b5b5b5; padding-top:10px; }
 .page_content .left{width:560px; float:left; margin-right:20px;}
@@ -38,10 +38,6 @@ GLOBALS
 .bold{font-weight:bold;}
 .inline{display:inline;}
 
-.notification{border-radius:8px; background:#f6f6f6; border:1px solid #ececec; padding:10px 10px 10px 10px;}
-.notification .icon{width:60px; min-height:40px; float:left; display:block;}
-.notification .content{min-height:40px; float:right; width:440px;}
-.page_content .notification p{margin:0px; color:#000;}
 
 .steps{border-radius:4px; background:#f1433f; font:11px Tahoma,Arial,Verdana, Sans-serif; color:#fff; margin-top:5px;}
 .steps ul{ padding:5px;}
@@ -677,38 +673,6 @@ ul.answers_list li{margin-top:5px; display:block; background:#f1f1f1; border-rad
 
 
 /******************************************************************************************************************
-NOTIFICATIONS
-******************************************************************************************************************/
-.message{
-		background-size: 40px 40px;
-		background-image: linear-gradient(135deg, rgba(255, 255, 255, .05) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .05) 50%, rgba(255, 255, 255, .05) 75%, transparent 75%, transparent);
-        box-shadow: inset 0 -1px 0 rgba(255,255,255,.4);
-        width: 90%;
-        color: #fff;
-        padding: 5px 15px 5px 15px;
-        animation: animate-bg 5s linear infinite;
-		border-radius:4px;
-		margin:5px 0 5px 0;
-}
-
-.info{background-color: #4ea5cd; border-color: #3b8eb5;}
-.error{background-color: #de4343; border-color: #c43d3d;}
-.warning{background-color: #eaaf51; border-color: #d99a36;}
-.success{ background-color: #61b832; border-color: #55a12c;}
-.message h3{ margin: 0 0 0px 0; font:bold 13px Arial, Helvetica, sans-serif;}
-.message p{ margin: 0; color:#000000; padding:0px;}
-@keyframes animate-bg {
-    from {
-        background-position: 0 0;
-    }
-    to {
-       background-position: -80px 0;
-    }
-}
-
-
-
-/******************************************************************************************************************
 PAGINATION
 ******************************************************************************************************************/
 ul{border:0; margin:0; padding:0;}
@@ -718,5 +682,5 @@ ul#pagination{clear:both; margin:0px auto; display:block; width:350px; padding-t
 #pagination .previous-off,#pagination .next-off {color:#888888;display:block;float:left;font-weight:normal;margin-right:2px;padding:3px 14px;}
 #pagination .next a,#pagination .previous a {font-weight:normal;} 
 #pagination .active{background:#2e6ab1;color:#FFFFFF;font-weight:bold;display:block;float:left;padding:3px 14px;}
-#pagination a:link,#pagination a:visited {color:#0e509e;display:block;float:left;padding:3px 14px;text-decoration:none;}
+#pagination a:link,#pagination a:visited {color:#FFFFFF;display:block;float:left;padding:3px 14px;text-decoration:none;}
 #pagination a:hover{background:#40456b;}

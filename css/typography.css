@@ -21,7 +21,7 @@ h6{font-family: Arial,Tahoma,Verdana,Sans-serif; font-size:12px; line-height:18p
 h4.light{font-family: 'AccordAlternateLight'; font-size:12px; line-height:20px; font-weight:bold;}
 .notification .content h3{font-family: 'AccordAlternateBold'; font-size:16px; line-height:14px;}
 
-
+.page_content h3.referfriends{font-family: 'AccordAlternateBold'; font-size:18px; line-height:22px; margin:0px; padding:0px;}
 .home header #liverecharge #liveprofiles .calltoaction h1{ font:bold 14px Arial, Helvetica, sans-serif; color:#FFF; text-transform:uppercase; text-align:center;}
 #liverecharge #liveprofiles .calltoaction h1{ font:bold 14px Arial, Helvetica, sans-serif; color:#40456b; text-transform:uppercase; text-align:center;}
 
@@ -88,6 +88,58 @@ FONT SPECIFICS
 .grey{color:#4d4d4d;}
 .italic{font-style:italic;}
 p.georgia_by{font-family:Georgia, "Times New Roman", Times, serif;color:#535353; font-size:11px; font-style:italic;}
+
+
+
+/******************************************************************************************************************
+NOTIFICATIONS
+******************************************************************************************************************/
+.notification{border-radius:8px; background:#f6f6f6; border:1px solid #ececec; padding:10px 10px 10px 10px;}
+.notification .icon{width:60px; min-height:40px; float:left; display:block;}
+.notification .content{min-height:40px; float:right; width:440px;}
+.page_content .notification p{margin:0px; color:#000;}
+
+.message{
+		background-size: 40px 40px;
+		background-image: linear-gradient(135deg, rgba(255, 255, 255, .05) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .05) 50%, rgba(255, 255, 255, .05) 75%, transparent 75%, transparent);
+        box-shadow: inset 0 -1px 0 rgba(255,255,255,.4);
+        width: 90%;
+        color: #fff;
+        padding: 5px 15px 5px 15px;
+        animation: animate-bg 5s linear infinite;
+		border-radius:4px;
+		margin:5px 0 5px 0;
+}
+
+.info{background-color: #4ea5cd; border-color: #3b8eb5;}
+.error{background-color: #de4343; border-color: #c43d3d;}
+.warning{background-color: #eaaf51; border-color: #d99a36;}
+.success{ background-color: #61b832; border-color: #55a12c;}
+.purple_notify{ background-size: 40px 40px;
+		background-image: linear-gradient(135deg, rgba(255, 255, 255, .05) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .05) 50%, rgba(255, 255, 255, .05) 75%, transparent 75%, transparent);
+        box-shadow: inset 0 -1px 0 rgba(255,255,255,.4);
+        width: 90%;
+        color: #fff;
+        padding: 5px 15px 5px 15px;
+        animation: animate-bg 5s linear infinite;
+		border-radius:4px;
+		margin:5px 0 5px 0;background-color: #40456b; border-color: #40456b; width:90%; margin:0px auto; padding:10px;}
+.message h3{ margin: 0 0 0px 0; font:bold 13px Arial, Helvetica, sans-serif;}
+
+.purple_notify h3{ background:url(../images/users_notify_icon.png) no-repeat; padding-left:70px; line-height:54px;}
+.purple_notify h3 a{font-size:18px;}
+.purple_notify h3 a:hover{font-size:18px; color:#f0bb1a;}
+
+.message p{ margin: 0; color:#000000; padding:0px;}
+@keyframes animate-bg {
+    from {
+        background-position: 0 0;
+    }
+    to {
+       background-position: -80px 0;
+    }
+}
+
 
 
 
