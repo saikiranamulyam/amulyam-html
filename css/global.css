@@ -135,7 +135,7 @@ INNERPAGE HEADER
 .inner{ background:url(../images/pattern_bg.jpg);}
 a{font:11px Tahoma, Geneva, sans-serif; color:#f1433f; text-decoration:none;  transition: all .3s ease-in-out; -o-transition: all .3s ease-in-out; -moz-transition: all .3s ease-in-out; -webkit-transition: all .3s ease-in-out; outline:none;}
 a:hover{ color:#f0bb1a; }
-header{width:100%; display:block; min-height:142px;background:url(../images/bg.jpg) repeat-x, url(../images/color_stripe.png) repeat-x ;}
+header{width:100%; display:block; min-height:142px;background:url(../images/bg.jpg) repeat-x;}
 header #logo{ width:207px; height:45px; float:left; margin:20px 0 0 0; display:block;}
 /*header #topnav{ width:700px; height:45px; float:right; margin:20px 0 0 0; text-align:right; line-height:45px; display:block; overflow:hidden; position:relative;}*/
 .inner header #topnav a{font-weight:bold; padding:0 7px 0 7px; color:#f1433f;}
