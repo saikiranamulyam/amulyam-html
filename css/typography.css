@@ -21,7 +21,7 @@ h6{font-family: Arial,Tahoma,Verdana,Sans-serif; font-size:12px; line-height:18p
 h4.light{font-family: 'AccordAlternateLight'; font-size:12px; line-height:20px; font-weight:bold;}
 .notification .content h3{font-family: 'AccordAlternateBold'; font-size:16px; line-height:14px;}
 
-.page_content h3.referfriends{font-family: 'AccordAlternateBold'; font-size:18px; line-height:22px; margin:0px; padding:0px;}
+.page_content h4.referfriends{font-family: Arial, Tahoma, Verdana, sans-serif; font-size:12px; font-weight:bold; line-height:18px; margin:0px; padding:0px;}
 .home header #liverecharge #liveprofiles .calltoaction h1{ font:bold 14px Arial, Helvetica, sans-serif; color:#FFF; text-transform:uppercase; text-align:center;}
 #liverecharge #liveprofiles .calltoaction h1{ font:bold 14px Arial, Helvetica, sans-serif; color:#40456b; text-transform:uppercase; text-align:center;}
 
@@ -88,7 +88,7 @@ FONT SPECIFICS
 .grey{color:#4d4d4d;}
 .italic{font-style:italic;}
 p.georgia_by{font-family:Georgia, "Times New Roman", Times, serif;color:#535353; font-size:11px; font-style:italic;}
-
+p.errormessage{font-family:Georgia, "Times New Roman", Times, serif;color:#535353; font-size:11px; font-style:italic; color:#F00; line-height:14px;}
 
 
 /******************************************************************************************************************
@@ -98,6 +98,7 @@ NOTIFICATIONS
 .notification .icon{width:60px; min-height:40px; float:left; display:block;}
 .notification .content{min-height:40px; float:right; width:440px;}
 .page_content .notification p{margin:0px; color:#000;}
+
 
 .message{
 		background-size: 40px 40px;
