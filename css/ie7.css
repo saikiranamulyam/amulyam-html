@@ -79,7 +79,7 @@ LIVE RECHARGES ON HOMEPAGE
 .home header #liverecharge #liveprofiles .profile .profile_data .time{width:80px; overflow:hidden; font-size:10px; font-weight:normal; color:#a1a9e1; display:block; line-height:16px;}
 .home header #liverecharge #liveprofiles .calltoaction{ width:110px; float:right; margin:20px 5px; text-align:center;}
 
-#slider{margin-top:50px;}
+#slider_holder{margin-top:50px;  height:370px; clear:both;}
 
 /******************************************************************************************************************
 LIVE RECHARGES ON INNERPAGES WITHOUT LOGIN

@@ -36,7 +36,7 @@ footer{min-width:970px;}
 .borders6{ border-radius:6px; border-radius:6px; -webkit-border-radius:6px; -webkit-border-radius:6px; -moz-border-radius:6px; -moz-border-radius:6px;}
 .borders8{ border-radius:8px; border-radius:8px; -webkit-border-radius:8px; -webkit-border-radius:8px; -moz-border-radius:8px; -moz-border-radius:8px;}
 
-.container a{font:11px Tahoma, Geneva, sans-serif; color:#f1433f; text-decoration:none;  transition: all .3s ease-in-out; -o-transition: all .3s ease-in-out; -moz-transition: all .3s ease-in-out; -webkit-transition: all .3s ease-in-out; outline:none;}
+.container a{font:11px Tahoma, Geneva, sans-serif; color:#f1433f; text-decoration:none;  transition: all .3s ease-in-out; -o-transition: all .3s ease-in-out; -moz-transition: all .3s ease-in-out; -webkit-transition: all .3s ease-in-out; outline:none; font-weight:bold;}
 .container a:hover{ color:#40456b; }
 .bold{font-weight:bold;}
 .inline{display:inline;}
@@ -75,7 +75,7 @@ HOMEPAGE HEADER
 .home header #logo{ width:207px; height:45px; float:left; margin:20px 0 0 0; display:block;}
 .home header #topnav{ width:700px; height:45px; float:right; margin:20px 0 0 0; text-align:right; line-height:45px; display:block; overflow:hidden;}
 .home header #topnav a{font-weight:bold; padding:0 10px 0 10px;}
-.btn_holder{width:80px; float:right; display:block; }
+.btn_holder{width:80px; float:left; display:block;  }
 .link_holder{width:600px; float:left; display:block; }
 
 
@@ -103,7 +103,7 @@ LIVE RECHARGES ON HOMEPAGE
 /******************************************************************************************************************
 FEATURES ON HOMEPAGE AND RELATIVE ICONS
 ******************************************************************************************************************/
-.home #features{ min-height:140px; margin:30px 0 0 0;}
+.home #features{ min-height:140px; margin:0 0 0 0;}
 .home #features .howitworks{ width:300px; margin:0 30px 0 0; float:left; }
 .home #features .howitworks .steps{background:url(../images/sprite.png) -78px 0px ; min-height:104px; width:292px;}
 .home #features .waystoearn{  width:300px; margin:0; float:left; }
@@ -123,7 +123,7 @@ FEATURES ON HOMEPAGE AND RELATIVE ICONS
 /******************************************************************************************************************
 JQUERY SLIDER ON HOMEPAGE
 ******************************************************************************************************************/
-.home #slider{ height:370px; clear:both;}
+.home #slider_holder{ height:370px; clear:both; padding-top:20px;}
 .home #maincontent{  text-align:center; clear:both;}
 .inner #maincontent{text-align:center; clear:both; background:url(../images/pattern_bg.jpg); width:100%; display:block; }
 
@@ -133,14 +133,14 @@ INNERPAGE HEADER
 ******************************************************************************************************************/
 .header{ height:154px;}
 .inner{ background:url(../images/pattern_bg.jpg);}
-a{font:11px Tahoma, Geneva, sans-serif; color:#f1433f; text-decoration:none;  transition: all .3s ease-in-out; -o-transition: all .3s ease-in-out; -moz-transition: all .3s ease-in-out; -webkit-transition: all .3s ease-in-out; outline:none;}
+a{font:11px Tahoma, Geneva, sans-serif; color:#f1433f; text-decoration:none;  transition: all .3s ease-in-out; -o-transition: all .3s ease-in-out; -moz-transition: all .3s ease-in-out; -webkit-transition: all .3s ease-in-out; outline:none; }
 a:hover{ color:#f0bb1a; }
 header{width:100%; display:block; min-height:142px;background:url(../images/bg.jpg) repeat-x;}
 header #logo{ width:207px; height:45px; float:left; margin:20px 0 0 0; display:block;}
 /*header #topnav{ width:700px; height:45px; float:right; margin:20px 0 0 0; text-align:right; line-height:45px; display:block; overflow:hidden; position:relative;}*/
 .inner header #topnav a{font-weight:bold; padding:0 7px 0 7px; color:#f1433f;}
 .inner header #topnav a:hover{font-weight:bold; padding:0 7px 0 7px; color:#f0bb1a;}
-.btn_holder{width:80px; float:right; margin:0 0 0 0;}
+.btn_holder{width:80px; float:left; }
 #top_tabnav{min-height:70px;  display:block; clear:both; float:right; margin:18px 0 0 0; width:100%;}
 
 

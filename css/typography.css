@@ -5,10 +5,10 @@
 /******************************************************************************************************************
 GLOBALS
 ******************************************************************************************************************/
-p {font-family: Arial, Tahoma, Verdana, sans-serif; font-size:12px; color:#606060; line-height:17px; margin:5px 0 20px 0; }
-.page_content p{ Arial, Tahoma, Verdana, sans-serif;  font-size:12px; color:#606060; line-height:18px; margin:5px 0 20px 0; }
-p.helptext{font-family: Georgia, "Times New Roman", Times, serif; font-size:11px; font-style:italic; color:#8b8b8b; line-height:14px; margin-top:0px; margin-bottom:10px;}
-.notification .content p{font-family: Arial, Tahoma, Verdana, sans-serif; font-size:12px; line-height:14px; margin-top:5px;}
+p {font-family:Tahoma, Verdana, sans-serif; font-size:11px; color:#606060; line-height:17px; margin:5px 0 20px 0; }
+.page_content p{font-family:Tahoma, Verdana, sans-serif;  font-size:11px; color:#606060; line-height:18px; margin:5px 0 20px 0; }
+p.helptext{font-family: Georgia, "Times New Roman", Times, serif; font-size:11px; font-style:italic; color:#8b8b8b; line-height:14px; margin-top:10px; margin-bottom:10px;}
+.notification .content p{font-family: Tahoma, Verdana, sans-serif; font-size:11px; line-height:14px; margin-top:5px;}
 /******************************************************************************************************************
 HEADINGS
 ******************************************************************************************************************/
@@ -83,14 +83,14 @@ FONT SPECIFICS
 .white{color:#FFF;}
 .pink{ color:#f1433f;}
 .purple{color:#40456b;}
-.bold{font-weight:bold;}
+
 .black{color:#191d3b;}
 .grey{color:#4d4d4d;}
 .italic{font-style:italic;}
 p.georgia_by{font-family:Georgia, "Times New Roman", Times, serif;color:#535353; font-size:11px; font-style:italic;}
 p.errormessage{font-family:Georgia, "Times New Roman", Times, serif;color:#535353; font-size:11px; font-style:italic; color:#F00; line-height:14px;}
 
-
+.bold{font-weight:bold;}
 /******************************************************************************************************************
 NOTIFICATIONS
 ******************************************************************************************************************/

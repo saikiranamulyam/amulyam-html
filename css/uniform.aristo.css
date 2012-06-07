@@ -522,7 +522,7 @@ display:block;
 
 .input_error {left: 0;padding: 0 9px 1px 15px;
 background: #E82222;color: white;
-font:11px Tahoma, Geneva, sans-serif;
+font:11px Arial, Geneva, sans-serif;
 white-space: nowrap;min-width: 10px;z-index:999;background:url(../images/input_error_larr.png);height:25px;
 line-height:25px;margin-left:-15px;
 }
@@ -530,11 +530,16 @@ line-height:25px;margin-left:-15px;
 table, td{border:0px;}
 table{border:none; border-spacing: 0; border-collapse: collapse;}
 td{margin: 0; padding: 4px 4px;  vertical-align:middle; line-height:16px;}
-th{	height:20px; background:url(../images/th_bg.jpg) repeat-x; font:bold 11px Tahoma, Geneva, sans-serif;  color:#f1433f;line-height:14px; padding-top:10px;}
+th{	height:20px; background:url(../images/th_bg.jpg) repeat-x; font:bold 11px Arial, Geneva, sans-serif;  color:#f1433f;line-height:14px; padding-top:10px;}
 
 .recharge_mobile label{width:180px;}
-.data table, td{border-color: #F4F4F4;border-style: solid;}
-.data tbody{border-left:1px solid #F4F4F4;border-bottom:1px solid #F4F4F4;}
-.data table{border-left:1px solid #F4F4F4;border-bottom:1px solid #F4F4F4; border-spacing: 0; border-collapse: collapse;}
+.data table, td{border-color: #ececec;border-style: solid;}
+.data tbody{border-left:1px solid #ececec;border-bottom:1px solid #ececec;}
+.data table{border-left:1px solid #ececec;border-bottom:1px solid #ececec; border-spacing: 0; border-collapse: collapse;}
 .data td{margin: 0; padding: 4px 4px; border-width: 1px 1px 0 0; vertical-align:middle; line-height:16px;}
-.data th{	height:20px; background:url(../images/th_bg.jpg) repeat-x; font:bold 11px Tahoma, Geneva, sans-serif;  color:#f1433f;line-height:14px;border-top:1px solid #F4F4F4;border-right:1px solid #F4F4F4;  padding:5px;padding-top:10px;}
+.data th{	height:20px; background:url(../images/th_bg.jpg) repeat-x; font:bold 11px Arial, Geneva, sans-serif;  color:#f1433f;line-height:14px;border-top:1px solid #ececec;border-right:1px solid #ececec;  padding:5px;padding-top:10px;}
+
+.inbox a{ color:#606060;}
+.inbox a:hover{ color:#f1433f;}
+.inbox tr.unread{background:#FFF;}
+.inbox tr.read{background:#f9f9f9;}
