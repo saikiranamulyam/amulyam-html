@@ -1,7 +1,8 @@
 @charset "utf-8";
 /* CSS Document */
 .home #features .counter .counter_bg .count{letter-spacing:7.5px; }
-.btn_holder{width:80px; float:right; margin:5px 0 0 0;}
+.btn_holder{width:80px; float:left; margin:5px 0 0 0;}
+#signin_menu{top: 23.5px; }
 .accordionButton {width: 540px; float: left; 	_float: none;  /* Float works in all browsers but IE6 */ cursor: pointer;   padding:8px 10px; 
 background: #ffffff; /* Old browsers */
 /* IE9 SVG, needs conditional override of 'filter' to 'none' */
