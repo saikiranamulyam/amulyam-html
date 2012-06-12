@@ -20,6 +20,9 @@ footer{min-width:970px;}
 .lh20{line-height:20px;}
 .al_center{text-align:center;}
 .page_content {width:920px; margin:0px auto; margin-top:10px; padding-bottom:20px;  border-top:1px dotted #b5b5b5; padding-top:10px; }
+.page_content {width:920px; margin:0px auto; margin-top:10px; padding-bottom:20px;  border-top:1px dotted #b5b5b5; padding-top:10px; }
+.no_border{border-top:none;}
+
 .page_content .left{width:560px; float:left; margin-right:20px;}
 .page_content .right{width:340px; float:right; min-height:300px;}
 
@@ -697,3 +700,204 @@ REFER FRIENDS
 .social_media_network ul li{ width:180px; margin:0 10px 0 0 ; float:left; display:block; padding:10px; border:1px solid #dfdfdf; text-align:center; vertical-align:middle; height:70px; cursor:pointer;}
 .social_media_network ul li:last-child{ width:180px; margin:0 0 0 0 ; float:left; display:block; padding:10px; border:1px solid #dfdfdf; }
 .social_media_network ul li:hover{ background:#40456b;transition: all .3s ease-in-out; -o-transition: all .3s ease-in-out; -moz-transition: all .3s ease-in-out; -webkit-transition: all .3s ease-in-out; outline:none;}
+
+
+/******************************************************************************************************************
+WEB SEARCH, IMAGE SEARCH AND VIDEOS SEARCH PAGES
+******************************************************************************************************************/
+#search{width:960px; margin:0px auto;}
+.clear{clear:both;}
+#maincontentbox #search {width:770px; height:500px; text-align:center; margin-top:50px;}
+#maincontentbox #search a { text-decoration:none; color:#404649;}
+#maincontentbox #search a:hover { text-decoration:none; color:#F1433F;}
+#maincontentbox #search a.active { text-decoration:none; color:#F1433F;}
+.bookmark {width:900px; text-align:right; clear:both;  margin:0px auto;}
+.bookmark a { text-decoration:none;  color:#404649;  font-family: Arial, Helvetica, sans-serif;  font-size:12px;}
+.bookmark img { float:right;}
+#searchtag { margin:45px 10px 0px 10px;  font-family: Arial, Helvetica, sans-serif;  line-height:30px;}
+#searchtag a { margin:0px 10px; font-weight:bold;  font-size:12px;}
+#searchtag a:hover { color:#F1433F;  text-decoration:none;}
+#searchtag .active { color:#F1433F;  text-decoration:none;}
+#search #seach_box { width:460px;  height:24px;  padding:5px;}
+.suggestion_table{ background:#f0f0f0; padding:5px 5px 5px 10px; text-align:left; border:1px solid #CCC; font-weight:bold;}
+.search_holder{width:470px; margin:0px auto; display:block;}
+.suggestion_div{  background:#fff; display: block; text-align: left; font:14px Arial,Verdana,Sans-serif; line-height: 22px; min-width: 467px; padding-left: 5px; }
+.suggest_holder{ border: 1px solid #CCC;}
+.suggestion_div:hover{background: #efefef;}
+.suggestion_selected{  background:#efefef; display: block; text-align: left; font:14px Arial,Verdana,Sans-serif; line-height: 22px; min-width: 467px; padding-left: 5px; }
+
+#search #seach_button { width:159px;height:32px; background:#F1433F; border:solid 1px #b35a12; margin:10px auto;font-weight:bold;
+    color:#FFF; cursor:pointer;}
+#search #seach_button:hover { background:#333; border:solid 1px #333;}
+#search_interd {  width:770px; height:128px; background:#ebebeb; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;  border-radius: 5px;  margin:86px 0px 0px 0px;  color:#3f4548;display:block;	clear:both;	position:relative;}
+#search_interd .leftblock { float:left; width:217px; height:127px;}
+#search_interd .rightblock {float: right; width:510px;  height:127px;}
+#search_interd .rightblock p {  float: left;  margin:35px auto;  font-weight:bold;  font-size:12px; text-align:left;   font-family:Arial, Helvetica, sans-serif;}
+#search_interd .rightblock p img {  float: right;   margin:-65px 5px 0px 0px;}
+#search .Recent_Winners {}
+#search .Recent_Winners h3 { margin-top:10px; text-align:left; line-height:24px; margin-bottom:0px;}
+#search .Recent_Winners .line {border-bottom: dotted 1px #666; height:5px; margin-bottom:5px;}
+#search .Recent_Winners .box { font-family:Arial, Helvetica, sans-serif; text-align:left;  background:#f2f2f2; width:186px;
+    height:65px; margin:3px; float:left;}
+#search .Recent_Winners img { float:left;margin:7px}
+#search .Recent_Winners h5 { margin:0px; color:#F1433F; font-size:11px; line-height:20px;}
+#search .Recent_Winners h5 a { font-size:11px; color:#F1433F;}
+#search .Recent_Winners h6 { font-size:10px; color:#4c4c4c; font-weight:normal;  margin:0px;}
+#search .Recent_Winners h6 a { font-size:10px;  color:#4c4c4c;}
+#search_heddder{  margin:0px auto; padding:25px 40px; width:880px;
+    background-image: -ms-linear-gradient(top, #fdfdfd 0%, #eeeded 100%);
+    background-image: -moz-linear-gradient(top, #fdfdfd 0%, #eeeded 100%);
+    background-image: -o-linear-gradient(top, #fdfdfd 0%, #eeeded 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fdfdfd), color-stop(1, #eeeded));
+    background-image: -webkit-linear-gradient(top, #fdfdfd 0%, #eeeded 100%);
+    background-image: linear-gradient(to bottom, #fdfdfd 0%, #eeeded 100%);}
+#search_heddder .logo{  width:198px; height:40px; float:left;}
+#search_heddder #seach_box { width:470px; height:28px;  padding:2px;  float:left;  margin:8px 0px 0px 20px;    border:1px solid #d0d0d0;}
+#search_heddder #seach_button { width:129px; height:34px; background:#F1433F; border:solid 1px #b35a12; margin:8px 0px 0px 30px;
+    font-weight:bold; color:#FFF; cursor:pointer; float:left}
+#search_heddder  #seach_button:hover {  background:#333; border:solid 1px #333;}
+#seach_content{ margin:15px 0px 0px 0px;}
+#seach_content .options{ width:180px; float:left; height:auto; margin-left: 20px;}
+#seach_content .options ul{ text-align:left; list-style:none; margin:0px 0px 0px 0px; font-family:Arial, Helvetica, sans-serif;
+    font-size:12px; color:#404649; font-weight:bold; padding:0px 0px;}
+#seach_content .options ul li{ margin:1px 0px;}
+#seach_content .options ul li a{  color:#404649;  text-decoration:none;  padding:10px 2px; display:block}
+#seach_content .options ul li a .im{ width:30px; float:left}
+#seach_content .options ul li a img{  float:left;  margin:0px 5px 0px 0px;}
+#seach_content .options ul li a:hover{ color:#F1433F;  background:#F4F4F4;  padding:10px 2px;}
+#seach_content .options ul .active a{ color:#F1433F; padding:10px 2px;}
+#seach_content .options h4{ font-family: Verdana, Geneva, sans-serif;  font-size:12px; text-align:left;  color:#333;    margin:30px 0px 0px 0px;   padding:0px;}
+#seach_content .options ol{ list-style:none;text-align:left;  margin:0px; padding:0px}
+#seach_content .options ol a{ text-decoration:none;  font-size:11px; font-family:Arial, Helvetica, sans-serif;  color:#999;}
+#seach_content .options ol a:hover{  color:#333;}
+#seach_content .results{ text-align:left;  width:750px;  float:right;}
+#seach_content .results .block{ text-align:left;  width:740px; margin:10px 0px 15px 0px;  padding:0px;}
+#seach_content .results .block h1{  font: 14px arial,verdana,san-serif;  line-height: 18px;   color: #1111cc; text-align:left;}
+#seach_content .results .block h1 a{ font: 14px arial,verdana,san-serif; line-height: 18px; color: #1111cc; text-align:left;}
+#seach_content .results .block h2{ font: 12px arial,verdana,san-serif;  line-height: 18px; color: #008000; text-align:left;}
+#seach_content .results .block p{ font: 11px arial,verdana,san-serif; line-height: 18px; color: #000000; text-align:left;}
+#seach_content .results h1{ font-size:16px; width:600px; height:20px; overflow:hidden; margin:0px ; padding:0px; font-family:Arial, Helvetica, sans-serif;}
+#seach_content .results p{ font-size:14px;  height:32px;  overflow:hidden;  margin:0px;  padding:0px; font-family:Arial, Helvetica, sans-serif;  color:#333;}
+#seach_content .results h2{ font-size:12px; font-weight:normal;  width:600px;  height:16px; overflow:hidden;  margin:0px ;
+    padding:0px; color:#993; font-family:Arial, Helvetica, sans-serif;}
+#search .Recent_Winners_inner .box {font-family:Arial, Helvetica, sans-serif; text-align:left; width:150px;
+    height:72px;  margin:0px; float:left; border-right: dotted 1px #CCC; padding:5px 0px 0px 10px;}
+#search .Recent_Winners_inner img { float:left;  margin:7px; border:3px  solid #CCC;}
+#search .Recent_Winners_inner h5 { margin:0px; color:#ea700a; font-size:12px;  line-height:20px; width:80px; height:18px;
+    overflow:hidden;  margin:2px 0px 0px 0px; font-family:Tahoma, Geneva, sans-serif;}
+#search .Recent_Winners_inner h5 a { font-size:11px;  color:#F1433F;}
+#search .Recent_Winners_inner h6 { font-size:10px; color:#626262; font-weight:normal; margin:2px 0px 0px 0px;
+    width:80px; height:18px; overflow:hidden;}
+	
+	
+/*--------------- winner notification --------------------------*/
+.contCongrats { background-color: #FBFBFB; border: 1px solid #E0E0E0; padding: 15px;  /*margin: 10px;*/
+    font-family: Arial, Helvetica, sans-serif; position: relative;}
+.contCongrats .sbDeno { float: left; margin-right: 15px; max-width: 332px;}
+.contCongrats .msg { float: left; margin-top: 0;}
+.contCongrats .aR1 {color: #3e3e3e; font-size: 26px; line-height: 26px; padding-bottom: 10px;  font-weight: bold;}
+.contCongrats .aR2 { color: #e26a05; font-size: 22px; line-height: 22px;  padding-bottom: 10px;  font-weight: bold;}
+.contCongrats .aR3 {color: #333333; font-size: 12px; font-weight: bold;  margin-bottom: 10px;}
+.contCongrats .aR3 a { color: #20A0D1;  text-decoration: none;}
+.contCongrats .aR3 a:hover {  text-decoration: underline;}
+.contCongrats .close {  position: absolute; right: 5px;  top: 5px;  background: url(images/search/assets.png) right -80px;
+    width: 10px;  height: 10px; cursor: pointer;}
+.congratsContainer .validateMsg {  border: 1px solid #990000;  color: #990000;  background-color: #FFE1E1;
+    font-weight: bold;  padding: 6px;  font-size: 13px;  width: 530px;  margin-top: 10px;}
+.congratsTitle {  font-size: 14px;  line-height: 14px;  color: #FFFFFF;  font-weight: bold;  text-transform:uppercase;
+    padding: 5px;  background-color:#006666;}
+.congratsGray {  font-size: 11px;  color: #DA0D0A;  font-weight: normal;  margin: 22px 0 12px 0;}
+.congratsGray a, .congratsGray span { font-weight: bold; color: #666666; line-height: 300%;}
+.congratsBig .gray a:hover { text-decoration: none;}
+.captcha{width:100%; height:30px; display:block;}
+.captcha img{float:left; border:1px dotted #999;}
+.captcha .textfield{padding:5px; height:18px;}
+.fl_r{float:right;}
+.claim_button { width:80px; height:32px; background:#F1433F; border:solid 1px #b35a12;
+    font-weight:bold;  color:#FFF;  cursor:pointer;  float:right;}
+
+/******************************************************************************************************************
+PAGINATION
+******************************************************************************************************************/
+ul{border:0; margin:0; padding:0;}
+ul#pagination{margin:0px auto; width:450px; font:12px Arial, Helvetica, sans-serif; color:#666; margin-top:20px; margin-bottom:20px;}
+#pagination li{border:0; margin:0; padding:0; font-size:11px; list-style:none; margin-right:2px;float:left;}
+#pagination a{ border:solid 1px #d2d2d2; margin-right:2px; color:#666;}
+#pagination .previous-off, #pagination .next-off { border:solid 1px #DEDEDE; color:#888888; display:block; float:left;
+    font-weight:bold; margin-right:2px; padding:3px 4px;}
+#pagination .next a, #pagination .previous a {  font-weight:bold;}
+#pagination .active{ background:#ee8a05;  color:#FFFFFF;  font-weight:bold; display:block; float:left; padding:4px 6px;}
+#pagination a:link, #pagination a:visited { color:#333333; display:block; float:left; padding:3px 6px;text-decoration:none;}
+#pagination a:hover{ border:solid 1px #333333;}
+
+/********************** CSS FOR IMAGES ************************/
+ul.image_results{ margin:0px; padding:0px;list-style-type:none;}
+ul.image_results li{width:155px; max-width:155px; overflow:hidden; background:#efefef; margin:0px 10px 10px 0px; float:left;  padding:10px; padding-bottom:10px; transition: all .3s ease-in-out; -o-transition: all .3s ease-in-out; -moz-transition: all .3s ease-in-out; -webkit-transition: all .3s ease-in-out; outline:none; list-style-type:none; cursor:pointer;}
+ul.image_results li:hover {background:#F1433F;list-style-type:none;}
+ul.image_results li .img_holder{width:155px; max-width:155px; overflow:hidden; display:block; margin:0px auto; vertical-align:middle; max-height:180px;  overflow:hidden; height:180px; min-height:180px; text-align:center; }
+ul.image_results li .img_content{width:155px; max-width:155px; max-height:28px; font:12px Arial, Helvetica, sans-serif; line-height:16px; text-align:center; min-height:28px; height:28px; overflow:hidden; }
+ul.image_results li .img_content a{color: #0000ee;}
+ul.image_results li .img_formats{width:155px; max-width:155px; max-height:16px; font:12px Arial, Helvetica, sans-serif; line-height:16px; text-align:center; min-height:16px; height:16px; overflow:hidden; color:#333; clear:both;}
+
+/********************** CSS FOR VIDEO RESULTS ************************/
+.clear{clear:both;}
+#seach_content .video_results{width:730px;float:right; margin-right:20px;}
+#seach_content .video_results ul{margin:0px; padding:0px; font:11px Arial, Helvetica, sans-serif; color:#333; line-height:18px; text-align:left;}
+#seach_content .video_results ul li{display:block; border-bottom:1px solid #e9e9e9; min-height:78px; height:78px; overflow:hidden;  list-style-type:none; padding:8px; transition: all .3s ease-in-out; -o-transition: all .3s ease-in-out; -moz-transition: all .3s ease-in-out; -webkit-transition: all .3s ease-in-out; outline:none; list-style-type:none; border-radius:4px;}
+#seach_content .video_results ul li:hover{ background:#efefef; cursor:pointer; }
+#seach_content .video_results ul li .video_thumb{ width:120px; height:78px; float:left; margin-right:10px; display:block;overflow:hidden;}
+#seach_content .video_results ul li .video_thumb_details{ width:550px; height:78px; float:right; margin-right:10px; display:block;overflow:hidden;}
+#seach_content .video_results ul li .video_thumb_details h2{margin:0px; padding:0px; display:block; font-size:14px; font-weight:bold; height:24px;line-height:24px; overflow:hidden; max-height:24px; }
+#seach_content .video_results ul li .video_thumb_details .video_description{margin:0px; padding:0px; display:block; font:11px Arial, Helvetica, sans-serif; color:#767676;height:32px;line-height:16px; overflow:hidden; max-height:32px; }
+#seach_content .video_results ul li .video_thumb_details .video_stats{margin:0px; padding:0px; display:block; margin-top:5px; font:11px Arial, Helvetica, sans-serif; color:#767676;height:18px;line-height:18px; overflow:hidden; max-height:18px; clear:both;}
+#seach_content .video_results ul li .video_thumb_details .video_stats a{color:#2c2c2c;}
+.bold{font-weight:bold;}
+
+#seach_content .video_preview{width:730px;float:right; margin-right:20px; font:11px Arial, Helvetica, sans-serif; color:#333; line-height:18px; text-align:left; }
+#seach_content .video_player{width:640px; height:390px; display:block; clear:both;  float:left;}
+#seach_content .video_player_stats{margin:0px; padding:0px; display:block; margin-top:5px; font:11px Arial, Helvetica, sans-serif; color:#767676;height:18px;line-height:18px; overflow:hidden; max-height:18px; width:470px; float:left;}
+#seach_content .video_player_stats a{color:#333;}
+#seach_content .video_player_details{width:720px; float:left; display:block; clear:both; margin:10px 0 0 0;}
+.view_count{font:18px Arial, Helvetica, sans-serif; float:left; width:150px; margin-top:5px; text-align:right; }
+.video_player_description{margin:15px 0 0 0; text-align:left; clear:both; width:600px; line-height:16px;}
+.video_player_description a{font-weight:bold; color:#F1433F; }
+.comment {
+	
+	
+
+}
+a.morelink {
+	text-decoration:none;
+	outline: none;
+}
+.morecontent span {
+	display: none;
+
+}
+
+.accordion_videos{width:100%; margin:0px auto; clear:both; display:block; margin-top:25px; position:relative;}
+ul.suggested_videos{margin:0px;}
+ul.suggested_videos a{text-decoration:none;}
+ul.suggested_videos img{border:none;}
+ul.suggested_videos li{width:300px; height:80px; overflow:hidden; background:#f1f1f1; display:block;  color:#777777; margin:0 15px 5px 0; transition: all .3s ease-in-out; -o-transition: all .3s ease-in-out; -moz-transition: all .3s ease-in-out; -webkit-transition: all .3s ease-in-out; padding:5px; text-align:center; float:left; list-style-type:none;}
+ul.suggested_videos li .video_player_thumb{width:120px; float:left; position:relative;}
+ul.suggested_videos li .video_player_thumb_details{width:170px; float:right;}
+ul.suggested_videos li .video_player_thumb img{width:120px; height:80px; max-width:120px; max-height:90px;}
+ul.suggested_videos li:hover{ background:#F1433F;padding:5px; text-align:center; box-shadow: 2px 2px 2px #e2e2e2;  -moz-box-shadow: 2px 2px 2px #e2e2e2;   -webkit-box-shadow: 2px 2px 2px #e2e2e2;   -o-box-shadow: 2px 2px 2px #e2e2e2;  filter:progid:DXImageTransform.Microsoft.Shadow(color='#e2e2e2', Direction=120, Strength=2); }
+ul.suggested_videos li p{margin:0px; padding:0px; line-height:16px; text-align:left;}
+ul.suggested_videos li:hover p{color:#333;}
+ul.suggested_videos li p.suggest_video_title{width:160px; display:block; font-weight:bold; padding-top:3px; text-align:left; height:34px; max-height:34px; font:bold 14px Arial, Helvetica, sans-serif; font-weight:bold; line-height:16px; overflow:hidden; color:#333333;}
+ul.suggested_videos li p.suggest_video_title a{color:#333333;}
+
+
+ul.suggested_videos li p.views{width:160px; overflow:hidden; display:block; font-size:11px; text-align:left; }
+.uploaded_username{font:11px Arial, Helvetica, sans-serif; text-align:left; max-height:16px; height:16px; overflow:hidden;}
+.search_videos_but{ width:159px; height:32px; background:url(images/search/search_videos_button.png) no-repeat; border:0px; cursor:pointer; margin-top:8px;}
+.search_videos_but:hover{ width:159px; height:32px; background:url(images/search/search_videos_button.png) no-repeat 0px -32px; border:0px; cursor:pointer;}
+ul.suggested_videos .play_icon{width:16px; height:16px; position:absolute; top:35px; left:55px; background:url(images/search/play_trans_icon.png) no-repeat;}
+ul.suggested_videos .play_time{min-width:30px; max-width:50px; background:black; border-radius:4px; font:11px Tahoma, Geneva, sans-serif; color:#fff; line-height:18px; height:18px; position:absolute; right:2px; top:60px; opacity:0.6;}
+.more_videos_button{ width:372px; height:47px; border:0px; background:url(images/search/more_videos_but.png) no-repeat; margin:0px auto; outline:none; margin-left:140px; cursor:pointer;}
+.more_videos_button:hover{ width:372px; height:47px; border:0px; background:url(images/search/more_videos_but.png) no-repeat 0px -47px;}
+.more_videos_button:active{margin-top:1px;}
+
