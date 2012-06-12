@@ -487,9 +487,7 @@ a.signin span {	background-image: url("images/toggle_down_light.png");	backgroun
 #topnav a.menu-open {	background: #ddeef6!important;	color: #666!important;	outline: none;}
 #small_signup {	display: inline;	float: none;	line-height: 23px;	margin: 25px 0 0;	width: 170px;}
 a.signin.menu-open span {	background-image: url("images/toggle_up_dark.png");	color: #789;}
-#signin_menu {	background: #f1433f;border-radius: 6px;	-webkit-border-radius: 6px;	-moz-border-radius: 6px;padding: 15px;	font: 11px Tahoma, Arial, sans-serif;
-	color: #fff;line-height: 18px;		display: none;	text-align: left;	display: none;	position: absolute;	width: 180px;	z-index: 100;	border: 1px transparent;
-	text-align: left;	top: 24.5px;	right: 0px;	margin-top: 32px;	margin-right: 15px; *margin-right: -1px;	color: #FFF;	font-size: 11px;}
+#signin_menu {	background: #f1433f;border-radius: 6px;	-webkit-border-radius: 6px;	-moz-border-radius: 6px;padding: 15px;	font: 11px Tahoma, Arial, sans-serif; 	color: #fff;line-height: 18px;		display: none;	text-align: left;	display: none;	position: absolute;	width: 180px;	z-index: 100;	border: 1px transparent;	text-align: left;	top: 24.5px;	right: 0px;	margin-top: 32px;	margin-right: 15px; *margin-right: -1px;	color: #FFF;	font-size: 11px;}
 #signin_menu label {	width: 100%;	display: block; line-height:18px; margin-top:8px;}
 #signin_menu .textfield {	background: #fff;	border: none;	padding: 5px;	font: 11px Tahoma, Arial, Sans-serif;	color: #4e4e4e;	width: 95%;}
 #signin_menu hr {	border: none;	border-bottom: 1px dotted #f5625e;	clear: both;}

@@ -372,3 +372,7 @@ button.recharge:hover {
 button.recharge:active {
 margin-top:1px;
 }
+#liverecharge{position:relative; z-index:99;}
+#slider_holder{position:relative; z-index:999;}
+#main_menu{position:relative; z-index:9999999;}
+

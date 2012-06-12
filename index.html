@@ -27,17 +27,17 @@
     $(document).ready(function(){ 
 		$(".signin").click(function(e) {
                 e.preventDefault();
-                $("fieldset#signin_menu").toggle();
+                $("div#signin_menu").toggle();
                 $(".signin").toggleClass("menu-open");
             });
 
-            $("fieldset#signin_menu").mouseup(function() {
+            $("div#signin_menu").mouseup(function() {
                 return false
             });
             $(document).mouseup(function(e) {
                 if($(e.target).parent("a.signin").length==0) {
                     $(".signin").removeClass("menu-open");
-                    $("fieldset#signin_menu").hide();
+                    $("div#signin_menu").hide();
                 }
             });            
 
@@ -68,7 +68,7 @@
 						</div> 
 					</div>
 					<!-- MODAL LOGIN FORM STARTS HERE -->
-					<fieldset id="signin_menu">
+					<div id="signin_menu" >
 						<form method="post" id="signin" action="#">
 						  <label for="username">Username :</label>
 						  <input type="text" name="username" id="username" class="textfield"/>
@@ -82,7 +82,7 @@
 						  <a href="#" class="fl_l">Forgot Password?</a>
 						  <input type="submit" value=" " class="login_but_panel fl_r"/>
 						</form>
-					</fieldset>
+					</div>
 					<!-- MODAL LOGIN FORM ENDS HERE -->
 				</div>
 				
