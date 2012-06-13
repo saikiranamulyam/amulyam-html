@@ -20,7 +20,7 @@ footer{min-width:970px;}
 .lh20{line-height:20px;}
 .al_center{text-align:center;}
 .page_content {width:920px; margin:0px auto; margin-top:10px; padding-bottom:20px;  border-top:1px dotted #b5b5b5; padding-top:10px; }
-.page_content {width:920px; margin:0px auto; margin-top:10px; padding-bottom:20px;  border-top:1px dotted #b5b5b5; padding-top:10px; }
+.page_content_searchresults {width:960px; margin:0px auto;  padding-bottom:20px;  border-top:1px dotted #b5b5b5;  }
 .no_border{border-top:none;}
 
 .page_content .left{width:560px; float:left; margin-right:20px;}
@@ -224,10 +224,10 @@ footer #copyright{ background:url(../images/footer_border.gif) repeat-x; margin:
 BREADCRUMB
 ******************************************************************************************************************/
 .container{
-box-shadow: 2px 2px 2px #e2e2e2;  
--moz-box-shadow: 2px 2px 2px #e2e2e2;   
--webkit-box-shadow: 2px 2px 2px #e2e2e2;   
-filter:progid:DXImageTransform.Microsoft.Shadow(color='#e2e2e2', Direction=120, Strength=2); 
+box-shadow: 0px 2px 6px #c2c2c2;  
+-moz-box-shadow: 0px 2px 6px #c2c2c2;   
+-webkit-box-shadow: 0px 2px 6px #c2c2c2;   
+filter:progid:DXImageTransform.Microsoft.Shadow(color='#c2c2c2', Direction=120, Strength=6); 
 background:#fff;
 width:960px; 
 border-radius:8px; 
@@ -676,18 +676,7 @@ ul.answers_list li{margin-top:5px; display:block; background:#f1f1f1; border-rad
 .answers_panel ul li{line-height:18px;}
 
 
-/******************************************************************************************************************
-PAGINATION
-******************************************************************************************************************/
-ul{border:0; margin:0; padding:0;}
-ul#pagination{clear:both; margin:0px auto; display:block; width:350px; padding-top:20px; margin-bottom:10px;}
-#pagination li{border:0; margin:0; padding:0;font-size:11px;list-style:none;margin-right:2px;}
-#pagination a{margin-right:2px;font-weight:bold;border-radius:4px;background:#f1433f;color:#FFF;}
-#pagination .previous-off,#pagination .next-off {color:#888888;display:block;float:left;font-weight:normal;margin-right:2px;padding:3px 14px;}
-#pagination .next a,#pagination .previous a {font-weight:normal;} 
-#pagination .active{background:#2e6ab1;color:#FFFFFF;font-weight:bold;display:block;float:left;padding:3px 14px;}
-#pagination a:link,#pagination a:visited {color:#FFFFFF;display:block;float:left;padding:3px 14px;text-decoration:none;}
-#pagination a:hover{background:#40456b;}
+
 
 
 /******************************************************************************************************************
@@ -716,10 +705,10 @@ WEB SEARCH, IMAGE SEARCH AND VIDEOS SEARCH PAGES
 #searchtag a { margin:0px 10px; font-weight:bold;  font-size:12px;}
 #searchtag a:hover { color:#F1433F;  text-decoration:none;}
 #searchtag .active { color:#F1433F;  text-decoration:none;}
-#search #seach_box { width:460px;  height:24px;  padding:5px;}
+#search #seach_box { width:420px;  height:24px;  padding:5px; padding-left:10px; font:14px Arial, Helvetica, sans-serif;}
 .suggestion_table{ background:#f0f0f0; padding:5px 5px 5px 10px; text-align:left; border:1px solid #CCC; font-weight:bold;}
-.search_holder{width:470px; margin:0px auto; display:block;}
-.suggestion_div{  background:#fff; display: block; text-align: left; font:14px Arial,Verdana,Sans-serif; line-height: 22px; min-width: 467px; padding-left: 5px; }
+.search_holder{width:430px; margin:0px auto; display:block;}
+.suggestion_div{  background:#fff; display: block; text-align: left; font:14px Arial,Verdana,Sans-serif; line-height: 22px; min-width: 427px; padding-left: 5px; }
 .suggest_holder{ border: 1px solid #CCC;}
 .suggestion_div:hover{background: #efefef;}
 .suggestion_selected{  background:#efefef; display: block; text-align: left; font:14px Arial,Verdana,Sans-serif; line-height: 22px; min-width: 467px; padding-left: 5px; }
@@ -751,12 +740,12 @@ WEB SEARCH, IMAGE SEARCH AND VIDEOS SEARCH PAGES
     background-image: -webkit-linear-gradient(top, #fdfdfd 0%, #eeeded 100%);
     background-image: linear-gradient(to bottom, #fdfdfd 0%, #eeeded 100%);}
 #search_heddder .logo{  width:198px; height:40px; float:left;}
-#search_heddder #seach_box { width:470px; height:28px;  padding:2px;  float:left;  margin:8px 0px 0px 20px;    border:1px solid #d0d0d0;}
+#search_heddder #seach_box { width:440px; height:28px;  padding:2px;  float:left;  margin:8px 0px 0px 20px;    border:1px solid #d0d0d0;}
 #search_heddder #seach_button { width:129px; height:34px; background:#F1433F; border:solid 1px #b35a12; margin:8px 0px 0px 30px;
     font-weight:bold; color:#FFF; cursor:pointer; float:left}
 #search_heddder  #seach_button:hover {  background:#333; border:solid 1px #333;}
 #seach_content{ margin:15px 0px 0px 0px;}
-#seach_content .options{ width:180px; float:left; height:auto; margin-left: 20px;}
+#seach_content .options{ width:150px; float:left; height:auto; margin-left: 20px;}
 #seach_content .options ul{ text-align:left; list-style:none; margin:0px 0px 0px 0px; font-family:Arial, Helvetica, sans-serif;
     font-size:12px; color:#404649; font-weight:bold; padding:0px 0px;}
 #seach_content .options ul li{ margin:1px 0px;}
@@ -765,16 +754,16 @@ WEB SEARCH, IMAGE SEARCH AND VIDEOS SEARCH PAGES
 #seach_content .options ul li a img{  float:left;  margin:0px 5px 0px 0px;}
 #seach_content .options ul li a:hover{ color:#F1433F;  background:#F4F4F4;  padding:10px 2px;}
 #seach_content .options ul .active a{ color:#F1433F; padding:10px 2px;}
-#seach_content .options h4{ font-family: Verdana, Geneva, sans-serif;  font-size:12px; text-align:left;  color:#333;    margin:30px 0px 0px 0px;   padding:0px;}
+#seach_content .options h4{ font-family: Verdana, GenevArial, Helvetica, sans-serif;  font-size:12px; text-align:left;  color:#333;    margin:30px 0px 0px 0px;   padding:0px;}
 #seach_content .options ol{ list-style:none;text-align:left;  margin:0px; padding:0px}
-#seach_content .options ol a{ text-decoration:none;  font-size:11px; font-family:Arial, Helvetica, sans-serif;  color:#999;}
+#seach_content .options ol a{ text-decoration:none;  font-size:11px; font-family:Arial, Helvetica, sans-serif;  color:#999; font-weight:normal; line-height:20px;}
 #seach_content .options ol a:hover{  color:#333;}
-#seach_content .results{ text-align:left;  width:750px;  float:right;}
-#seach_content .results .block{ text-align:left;  width:740px; margin:10px 0px 15px 0px;  padding:0px;}
-#seach_content .results .block h1{  font: 14px arial,verdana,san-serif;  line-height: 18px;   color: #1111cc; text-align:left;}
-#seach_content .results .block h1 a{ font: 14px arial,verdana,san-serif; line-height: 18px; color: #1111cc; text-align:left;}
-#seach_content .results .block h2{ font: 12px arial,verdana,san-serif;  line-height: 18px; color: #008000; text-align:left;}
-#seach_content .results .block p{ font: 11px arial,verdana,san-serif; line-height: 18px; color: #000000; text-align:left;}
+#seach_content .results{ text-align:left;  width:750px;  float:right; padding-right:20px;}
+#seach_content .results .block{ text-align:left;   margin:10px 0px 25px 0px;  padding:0px;}
+#seach_content .results .block h1{  font: 15px Arial, Helvetica, sans-serif;  line-height: 18px;   color: #1111cc; text-align:left;}
+#seach_content .results .block h1 a{ font: 15px arial,verdana,san-serif; line-height: 18px; color: #1111cc; text-align:left;}
+#seach_content .results .block h2{ font: 13px arial,verdana,san-serif;  line-height: 18px; color: #008000; text-align:left;}
+#seach_content .results .block p{ font: 12px arial,verdana,san-serif; line-height: 18px; color: #000000; text-align:left;}
 #seach_content .results h1{ font-size:16px; width:600px; height:20px; overflow:hidden; margin:0px ; padding:0px; font-family:Arial, Helvetica, sans-serif;}
 #seach_content .results p{ font-size:14px;  height:32px;  overflow:hidden;  margin:0px;  padding:0px; font-family:Arial, Helvetica, sans-serif;  color:#333;}
 #seach_content .results h2{ font-size:12px; font-weight:normal;  width:600px;  height:16px; overflow:hidden;  margin:0px ;
@@ -793,7 +782,7 @@ WEB SEARCH, IMAGE SEARCH AND VIDEOS SEARCH PAGES
 .contCongrats { background-color: #FBFBFB; border: 1px solid #E0E0E0; padding: 15px;  /*margin: 10px;*/
     font-family: Arial, Helvetica, sans-serif; position: relative;}
 .contCongrats .sbDeno { float: left; margin-right: 15px; max-width: 332px;}
-.contCongrats .msg { float: left; margin-top: 0;}
+.contCongrats .msg { float: left; margin-top: 0; width:380px; float:right;}
 .contCongrats .aR1 {color: #3e3e3e; font-size: 26px; line-height: 26px; padding-bottom: 10px;  font-weight: bold;}
 .contCongrats .aR2 { color: #e26a05; font-size: 22px; line-height: 22px;  padding-bottom: 10px;  font-weight: bold;}
 .contCongrats .aR3 {color: #333333; font-size: 12px; font-weight: bold;  margin-bottom: 10px;}
@@ -810,22 +799,23 @@ WEB SEARCH, IMAGE SEARCH AND VIDEOS SEARCH PAGES
 .congratsBig .gray a:hover { text-decoration: none;}
 .captcha{width:100%; height:30px; display:block;}
 .captcha img{float:left; border:1px dotted #999;}
-.captcha .textfield{padding:5px; height:18px;}
+.captcha .textfield{padding:5px; height:18px; width:170px; float:left;}
 .fl_r{float:right;}
-.claim_button { width:80px; height:32px; background:#F1433F; border:solid 1px #b35a12;
+.claim_button { width:80px; height:29px; background:#F1433F; border:solid 1px #b35a12;
     font-weight:bold;  color:#FFF;  cursor:pointer;  float:right;}
 
 /******************************************************************************************************************
 PAGINATION
 ******************************************************************************************************************/
 ul{border:0; margin:0; padding:0;}
-ul#pagination{margin:0px auto; width:450px; font:12px Arial, Helvetica, sans-serif; color:#666; margin-top:20px; margin-bottom:20px;}
+
+ul#pagination{ font:12px Arial, Helvetica, sans-serif; color:#666; width:350px; margin:0px auto; display:block; padding-top:20px; text-align:center;display:block;}
 #pagination li{border:0; margin:0; padding:0; font-size:11px; list-style:none; margin-right:2px;float:left;}
 #pagination a{ border:solid 1px #d2d2d2; margin-right:2px; color:#666;}
 #pagination .previous-off, #pagination .next-off { border:solid 1px #DEDEDE; color:#888888; display:block; float:left;
     font-weight:bold; margin-right:2px; padding:3px 4px;}
 #pagination .next a, #pagination .previous a {  font-weight:bold;}
-#pagination .active{ background:#ee8a05;  color:#FFFFFF;  font-weight:bold; display:block; float:left; padding:4px 6px;}
+#pagination .active{ background:#F1433F;  color:#FFFFFF;  font-weight:bold; display:block; float:left; padding:4px 6px;}
 #pagination a:link, #pagination a:visited { color:#333333; display:block; float:left; padding:3px 6px;text-decoration:none;}
 #pagination a:hover{ border:solid 1px #333333;}
 
@@ -836,7 +826,7 @@ ul.image_results li:hover {background:#F1433F;list-style-type:none;}
 ul.image_results li .img_holder{width:155px; max-width:155px; overflow:hidden; display:block; margin:0px auto; vertical-align:middle; max-height:180px;  overflow:hidden; height:180px; min-height:180px; text-align:center; }
 ul.image_results li .img_content{width:155px; max-width:155px; max-height:28px; font:12px Arial, Helvetica, sans-serif; line-height:16px; text-align:center; min-height:28px; height:28px; overflow:hidden; }
 ul.image_results li .img_content a{color: #0000ee;}
-ul.image_results li .img_formats{width:155px; max-width:155px; max-height:16px; font:12px Arial, Helvetica, sans-serif; line-height:16px; text-align:center; min-height:16px; height:16px; overflow:hidden; color:#333; clear:both;}
+ul.image_results li .img_formats{width:155px; max-width:155px; max-height:16px; font:11px Arial, Helvetica, sans-serif; line-height:16px; text-align:center; min-height:16px; height:16px; overflow:hidden; color:#333; clear:both;}
 
 /********************** CSS FOR VIDEO RESULTS ************************/
 .clear{clear:both;}
@@ -846,7 +836,7 @@ ul.image_results li .img_formats{width:155px; max-width:155px; max-height:16px; 
 #seach_content .video_results ul li:hover{ background:#efefef; cursor:pointer; }
 #seach_content .video_results ul li .video_thumb{ width:120px; height:78px; float:left; margin-right:10px; display:block;overflow:hidden;}
 #seach_content .video_results ul li .video_thumb_details{ width:550px; height:78px; float:right; margin-right:10px; display:block;overflow:hidden;}
-#seach_content .video_results ul li .video_thumb_details h2{margin:0px; padding:0px; display:block; font-size:14px; font-weight:bold; height:24px;line-height:24px; overflow:hidden; max-height:24px; }
+#seach_content .video_results ul li .video_thumb_details h2{margin:0px; padding:0px; display:block; font-family:Arial, Helvetica, sans-serif; font-size:14px; font-weight:bold; height:24px;line-height:24px; overflow:hidden; max-height:24px;  }
 #seach_content .video_results ul li .video_thumb_details .video_description{margin:0px; padding:0px; display:block; font:11px Arial, Helvetica, sans-serif; color:#767676;height:32px;line-height:16px; overflow:hidden; max-height:32px; }
 #seach_content .video_results ul li .video_thumb_details .video_stats{margin:0px; padding:0px; display:block; margin-top:5px; font:11px Arial, Helvetica, sans-serif; color:#767676;height:18px;line-height:18px; overflow:hidden; max-height:18px; clear:both;}
 #seach_content .video_results ul li .video_thumb_details .video_stats a{color:#2c2c2c;}
@@ -860,21 +850,10 @@ ul.image_results li .img_formats{width:155px; max-width:155px; max-height:16px; 
 .view_count{font:18px Arial, Helvetica, sans-serif; float:left; width:150px; margin-top:5px; text-align:right; }
 .video_player_description{margin:15px 0 0 0; text-align:left; clear:both; width:600px; line-height:16px;}
 .video_player_description a{font-weight:bold; color:#F1433F; }
-.comment {
-	
-	
-
-}
-a.morelink {
-	text-decoration:none;
-	outline: none;
-}
-.morecontent span {
-	display: none;
-
-}
-
-.accordion_videos{width:100%; margin:0px auto; clear:both; display:block; margin-top:25px; position:relative;}
+.comment {}
+a.morelink {text-decoration:none;outline: none;}
+.morecontent span {display: none;}
+.accordion_videos{width:680px; margin:0px auto; clear:both; display:block; margin-top:25px; position:relative;float:left;}
 ul.suggested_videos{margin:0px;}
 ul.suggested_videos a{text-decoration:none;}
 ul.suggested_videos img{border:none;}
@@ -891,11 +870,11 @@ ul.suggested_videos li p.suggest_video_title a{color:#333333;}
 
 ul.suggested_videos li p.views{width:160px; overflow:hidden; display:block; font-size:11px; text-align:left; }
 .uploaded_username{font:11px Arial, Helvetica, sans-serif; text-align:left; max-height:16px; height:16px; overflow:hidden;}
-.search_videos_but{ width:159px; height:32px; background:url(images/search/search_videos_button.png) no-repeat; border:0px; cursor:pointer; margin-top:8px;}
-.search_videos_but:hover{ width:159px; height:32px; background:url(images/search/search_videos_button.png) no-repeat 0px -32px; border:0px; cursor:pointer;}
-ul.suggested_videos .play_icon{width:16px; height:16px; position:absolute; top:35px; left:55px; background:url(images/search/play_trans_icon.png) no-repeat;}
+.search_videos_but{ width:159px; height:32px; background:url(../images/search/search_videos_button.png) no-repeat; border:0px; cursor:pointer; margin-top:8px;}
+.search_videos_but:hover{ width:159px; height:32px; background:url(../images/search/search_videos_button.png) no-repeat 0px -32px; border:0px; cursor:pointer;}
+ul.suggested_videos .play_icon{width:22px; height:22px; position:absolute; top:30px; left:50px; background:url(../images/search/play_trans_icon.png) no-repeat;}
 ul.suggested_videos .play_time{min-width:30px; max-width:50px; background:black; border-radius:4px; font:11px Tahoma, Geneva, sans-serif; color:#fff; line-height:18px; height:18px; position:absolute; right:2px; top:60px; opacity:0.6;}
-.more_videos_button{ width:372px; height:47px; border:0px; background:url(images/search/more_videos_but.png) no-repeat; margin:0px auto; outline:none; margin-left:140px; cursor:pointer;}
-.more_videos_button:hover{ width:372px; height:47px; border:0px; background:url(images/search/more_videos_but.png) no-repeat 0px -47px;}
+.more_videos_button{ width:372px; height:47px; border:0px; background:url(../images/search/more_videos_but.png) no-repeat; margin:0px auto; outline:none; margin-left:140px; cursor:pointer;}
+.more_videos_button:hover{ width:372px; height:47px; border:0px; background:url(../images/search/more_videos_but.png) no-repeat 0px -47px;}
 .more_videos_button:active{margin-top:1px;}
 
