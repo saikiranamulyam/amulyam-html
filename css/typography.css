@@ -9,6 +9,7 @@ p {font-family:Tahoma, Verdana, sans-serif; font-size:11px; color:#606060; line-
 .page_content p{font-family:Tahoma, Verdana, sans-serif;  font-size:11px; color:#606060; line-height:18px; margin:5px 0 20px 0; }
 p.helptext{font-family: Georgia, "Times New Roman", Times, serif; font-size:11px; font-style:italic; color:#8b8b8b; line-height:14px; margin-top:10px; margin-bottom:10px;}
 .notification .content p{font-family: Tahoma, Verdana, sans-serif; font-size:11px; line-height:14px; margin-top:5px;}
+
 /******************************************************************************************************************
 HEADINGS
 ******************************************************************************************************************/
@@ -142,6 +143,7 @@ NOTIFICATIONS
     }
 }
 
-
+ul.disk{margin:10px 0 0 0;}
+li.disk{line-height:18px; list-style-type:disc; margin-left:20px;}
 
 
