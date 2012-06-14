@@ -647,7 +647,19 @@ LIVE RECHARGES PAGE
 .live_recharge_details a{color:#4d4d4d;}
 .live_recharge_details a:hover{color:#f1433f;}
 
-
+/******************************************************************************************************************
+LIVE CONTEST WINNERS PAGE
+******************************************************************************************************************/
+.live_contest_winners {width:400px;  display:block; float:left; margin:5px 20px 0px 0px; padding:10px; background:#F8F8F8;}
+.live_contest_winners .profile_pic{width:50px; height:50px; border:3px solid #dedede; float:left;}
+.live_contest_winners .profile_data{width:320px; overflow:hidden; float:right;}
+.live_contest_winners .user_name{ line-height:20px;  overflow:hidden;display:block; width:500px; float:left;}
+.live_contest_winners .user_name a{font-weight:normal;}
+.live_contest_winners .user_name a.contest_link{font-weight:bold;}
+.live_contest_winners .mobile_data{line-height:16px;overflow:hidden; margin-top:5px; width:260px; float:right; display:block;}
+.live_contest_winners .mobile_data .operator_logo{width:50px; height:30px; float:left;}
+.live_contest_winners a{color:#4d4d4d;}
+.live_contest_winners a:hover{color:#f1433f;}
 
 /******************************************************************************************************************
 PLAY CONTESTS PAGE
